@@ -15,7 +15,9 @@
     - Access to resume of team members, organization of company info sessions, and publishing job postings
 
 - title: A big thank you to our wonderful sponsors!
-  imageSource: /assets/images/sponsors/
+  img: /assets/images/sponsors/
   list:
-    - DORD-IITK
-    - Solidworks
+    - title: DORD-IITK
+      website: https://www.iitk.ac.in/dord/
+    - title: Solidworks
+      website: https://www.solidworks.in/

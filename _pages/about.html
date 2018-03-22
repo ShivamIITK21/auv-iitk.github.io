@@ -7,13 +7,13 @@ css : about.css
 js: about.js
 ---
 
-<div style="background: white; padding-top: 50px;">
+<div style="background: white;padding: 150px 0 75px 0; ">
   <div class="container">
     {% for item in site.data.about_detail.events_timeline %}
-      <div class="page-header text-center">
-          <h1 id="timeline">{{item.title}}</h1>
-          <span id="desc">{{item.description}}</span>
-      </div>
+      <header class="major page-header" style = "padding-bottom: 100px;">
+          <h1 id="timeline" style="font-size:3.6em;color: #2d2d2d; margin: auto;" >{{item.title | upcase}}</h1>
+          <span id="desc" style = "font-size:1.2em; color:#2d2d2d;">{{item.description}}</span>
+      </header>
       <ul class="timeline">
       {% for data in item.timeline_block %}
         <li class="{% if data.class %}{{data.class}}{% endif %}" >
