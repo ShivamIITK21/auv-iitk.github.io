@@ -1,46 +1,46 @@
 - title: About Us
-  description: This para is an intro of some of our accolades which might interest you to move onto the timeline part after reading this.
-  timelineData: 
+  description: Intro para about achieved accolades.
+  timeline_block: 
     - description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-      imageSource: http://lorempixel.com/1600/500/sports/2
-      footerText: Continuar Lendo
-      timeOfEvent: July 2015
+      img: http://lorempixel.com/1600/500/sports/2
+      footer: Continuar Lendo
+      date: July 2015
 
     - description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-      imageSource: http://lorempixel.com/1600/500/sports/2
-      footerText: Continuar Lendo
+      img: http://lorempixel.com/1600/500/sports/2
+      footer: Continuar Lendo
       class: timeline-inverted
-      timeOfEvent: July 2015
+      date: July 2015
 
     - description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-      imageSource: http://lorempixel.com/1600/500/sports/2
-      footerText: Continuar Lendo
-      timeOfEvent: July 2015
+      img: http://lorempixel.com/1600/500/sports/2
+      footer: Continuar Lendo
+      date: July 2015
 
     - description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-      imageSource: http://lorempixel.com/1600/500/sports/2
-      footerText: Continuar Lendo
+      img: http://lorempixel.com/1600/500/sports/2
+      footer: Continuar Lendo
       class: timeline-inverted
-      timeOfEvent: July 2015
+      date: July 2015
 
     - description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-      imageSource: http://lorempixel.com/1600/500/sports/2
-      footerText: Continuar Lendo
-      timeOfEvent: July 2015
+      img: http://lorempixel.com/1600/500/sports/2
+      footer: Continuar Lendo
+      date: July 2015
 
     - description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-      imageSource: http://lorempixel.com/1600/500/sports/2
-      footerText: Continuar Lendo
+      img: http://lorempixel.com/1600/500/sports/2
+      footer: Continuar Lendo
       class: timeline-inverted
-      timeOfEvent: July 2015
+      date: July 2015
 
     - description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-      imageSource: http://lorempixel.com/1600/500/sports/2
-      footerText: Continuar Lendo
-      timeOfEvent: July 2015
+      img: http://lorempixel.com/1600/500/sports/2
+      footer: Continuar Lendo
+      date: July 2015
 
     - description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-      imageSource: http://lorempixel.com/1600/500/sports/2
-      footerText: Continuar Lendo
+      img: http://lorempixel.com/1600/500/sports/2
+      footer: Continuar Lendo
       class: timeline-inverted
-      timeOfEvent: July 2015
+      date: July 2015

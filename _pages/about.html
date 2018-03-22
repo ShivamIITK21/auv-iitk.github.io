@@ -11,16 +11,16 @@ js: about.js
   <div class="container">
     {% for item in site.data.about_detail.events_timeline %}
       <div class="page-header text-center">
-          <h1 id="timeline">About Us</h1>
-          <span>{{item.description}}</span>
+          <h1 id="timeline">{{item.title}}</h1>
+          <span id="desc">{{item.description}}</span>
       </div>
       <ul class="timeline">
-      {% for data in item.timelineData %}
+      {% for data in item.timeline_block %}
         <li class="{% if data.class %}{{data.class}}{% endif %}" >
-          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record {% if data.class %}invert{% endif %}" rel="tooltip" title="{{data.timeOfEvent}}" id=""></i></a></div>
+          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record {% if data.class %}invert{% endif %}" rel="tooltip" title="{{data.date}}" id=""></i></a></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <img class="img-responsive" src="{% if data.imageSource %}{{data.imageSource}}{% endif %}" />
+              <img class="img-responsive" src="{% if data.img %}{{data.img}}{% endif %}" />
             </div>
             <div class="timeline-body">
               <p>{{data.description}}</p>
@@ -28,7 +28,7 @@ js: about.js
             <div class="timeline-footer">
                 <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
                 <a><i class="glyphicon glyphicon-share"></i></a>
-                <a class="pull-right">{{data.footerText}}</a>
+                <a class="pull-right">{{data.footer}}</a>
             </div>
           </div>
         </li>
