@@ -7,15 +7,16 @@ css : sponsors.css
 js : sponsors.js
 sponsors_active : active
 ---
-<!-- About Sponsorship -->
-<div class="wrapper style3" style="padding: 150px 0 75px 0; background: white;">
+<!-- Sponsorship -->
+<div class="wrapper style3" style="padding: 150px 0 50px 0; background: white;">
 	<section class="container">
 		{% for item in site.data.sponsors_detail.sponsors %}
 			{% if item.title == "Sponsors" %}
 				<header class="major">
 					<h2 class="page-title" style="font-size:3.6em;color: #2d2d2d; margin: auto;" >{{item.title | upcase}}</h2><br>
-					<span style = "font-size:1.2em; color:#2d2d2d;">{{item.description1}}</span></br> </br>
-					<span style = "font-size:1.2em; color:#2d2d2d;">{{item.description2}}</span>
+					{% for description in item.description %}
+					<span style = "font-size:1.2em; color:#2d2d2d;">{{description}}</span></br> </br>
+					{% endfor %}
 				</header>
 			{% endif %}
 		{% endfor %}
@@ -32,7 +33,7 @@ sponsors_active : active
 				</header>
 				<div class="flex-container">
 		 			{% for sponsor in item.list %}
-						<img src="{{item.imageSource}}{{sponsor | downcase}}.png" alt="{{sponsor}} logo">
+						<a href="{{sponsor.website}}"><img src="{{item.img}}{{sponsor.title | downcase}}.png" alt="{{sponsor.title}} logo"></a>
 					{% endfor %}
 				</div>
 			</section><br>
@@ -40,7 +41,7 @@ sponsors_active : active
 	{% endfor %}
 </div>
 
-<!-- Sponsoring AUV Team -->
+<!-- Why Sponsor Us -->
 <div class="wrapper style2" style="background:#1e64ae; margin:0;padding:20px 0 60px 0;">
 	<section class="container">
 		<div class="row double">
@@ -48,18 +49,11 @@ sponsors_active : active
 				{% if item.title == "Why Sponsor Us?" or item.title == "Sponsorship Benifits" %}
 					<div class="6u">
 						<h2 class="heading1 page-header"><b>{{item.title | upcase}}</b></h2>
-						{% if item.description %}
-							<p style="text-align:justify; font-size:1.0em; margin:0;color:white !important;">
-								&emsp;&emsp;{{item.description}}
-							</p>
-						{% endif %}
-						{% if item.descriptionList %}
-							<ul class="list">
-								{% for point in item.descriptionList %}
-									<li>{{point}}</li>
-								{% endfor %}
-							</ul>
-						{% endif %}
+						<ul class="list">
+							{% for list in item.description %}
+								<li>{{list}}</li>
+							{% endfor %}
+						</ul>
 					</div>
 				{% endif %}
 			{% endfor %}

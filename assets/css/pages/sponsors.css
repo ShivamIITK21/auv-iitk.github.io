@@ -36,7 +36,7 @@ header.major .byline {
   flex-wrap:wrap;
   justify-content: center;
  }
-.flex-container > img {
+ .flex-container > a > img {
   width: 400px;
   height: 135px ;
   margin: 20px 40px 20px 40px;

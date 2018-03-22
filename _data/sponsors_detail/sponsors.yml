@@ -1,21 +1,28 @@
 - title: Sponsors
-  description1: In our endeavours to achieve greater heights in marine robotics, AUV-IITK is thankful to the generous support of its sponsors in terms of monetory and technical support. Your kind donations have helped us make grow a lot over the past few years. We hope to continue this in future as well, and look forward to associations would more firms.
-  description2: If you are interested in sponsoring AUV-IITK, please have a look at our <a href="">sponsorship package</a> and be sure to email us at <a href="mailto:iitkauv@gmail.com">iitkauv@gmail.com</a>.
+  description: 
+    - In our endeavours to achieve greater heights in marine robotics, AUV-IITK is thankful to the generous support of its sponsors in terms of monetory and technical support. Your kind donations have helped us make grow a lot over the past few years. We hope to continue this in future as well, and look forward to associations would more firms.
+    - If you are interested in sponsoring AUV-IITK, please have a look at our <a href="">sponsorship package</a> and be sure to email us at <a href="mailto:iitkauv@gmail.com">iitkauv@gmail.com</a>.
 
 - title: Why Sponsor Us?
-  descriptionList:
+  description:
     - Promoting research in robotics among undergraduate students
     - Recognising the team's hardwork and achievements and thereby supporting future activities of the team
     - Funding our team would make your firm eligible for several benefits and act as a big boost to your Corporate Social Responsibility (CSR)
 
 - title: Sponsorship Benifits
-  descriptionList:
+  description:
     - <b>Promotion and Visibility</b> during events through waterproof stickers on the vehicle, display of company's logo on team's apparels, website and posts on social media
     - <b>Association with IIT Kanpur</b> for a Corporate Social Responsibility (CSR)
     - Access to resume of team members, organization of company info sessions, and publishing job postings
 
 - title: A big thank you to our wonderful sponsors!
-  imageSource: /assets/images/sponsors/
+  img: /assets/images/sponsors/
   list:
-    - DORD-IITK
-    - Solidworks
+    - title: DORD-IITK
+      website: https://www.iitk.ac.in/dord/
+    - title: Solidworks
+      website: https://www.solidworks.in/
+    - title: Mathworks
+      website: https://in.mathworks.com/
+    - title: Sparton
+      website: https://www.sparton.com/
