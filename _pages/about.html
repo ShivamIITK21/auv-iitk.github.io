@@ -11,7 +11,7 @@ js: about.js
   <div class="container">
     {% for item in site.data.about_detail.events_timeline %}
       <header class="major page-header" style = "padding-bottom: 100px;">
-          <h1 id="timeline" style="font-size:3.6em;color: #2d2d2d; margin: auto;" >{{item.title | upcase}}</h1>
+          <h1 id="timeline" style="font-size:3.6em;color: #2d2d2d; margin: auto;" >{{item.title | upcase}}</h1><br>
           <span id="desc" style = "font-size:1.2em; color:#2d2d2d;">{{item.description}}</span>
       </header>
       <ul class="timeline">
@@ -20,7 +20,7 @@ js: about.js
           <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record {% if data.class %}invert{% endif %}" rel="tooltip" title="{{data.date}}" id=""></i></a></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <img class="img-responsive" src="{% if data.img %}{{data.img}}{% endif %}" />
+              <img class="img-responsive" src="{% if data.img %}{{data.img}}{% endif %}" alt="{{data.title}}" />
             </div>
             <div class="timeline-body">
               <p>{{data.description}}</p>
