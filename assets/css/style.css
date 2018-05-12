@@ -762,8 +762,9 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
   top: 0;
   right: 0;
   position: fixed;
-  text-align: center;
+  text-align: right;
   width: 100%;
+  padding: 0 10%;
 }
 
 #nav>ul {
