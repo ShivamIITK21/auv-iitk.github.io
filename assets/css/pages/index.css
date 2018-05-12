@@ -89,7 +89,3 @@ a.nolink {
 a.linked:hover {
   text-decoration: underline !important;
 }
-
-#home {
-  filter: brightness(100);
-}
