@@ -22,3 +22,4 @@ $(window).resize(function() {
     x1.style.display = "inline";
   }
 });
+
