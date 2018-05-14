@@ -60,23 +60,3 @@ $(window).resize(function() {
     document.getElementById("ws2").style.padding = "50px 5px 50px 5px";
   }
 });
-
-//Transparency of Nav Bar on scroll
-var a = document.getElementById("header");
-if (window.pageYOffset >= 30)
-  a.style.background = "rgba(0, 0, 0, 1.0)";
-else
-  a.style.background = "rgba(0, 0, 0, 0.7)";
-
-window.onscroll = function() {
-  Transparency()
-};
-
-function Transparency() {
-  if (window.pageYOffset >= 30)
-    a.style.background = "rgba(0, 0, 0, 1.0)";
-  else
-    a.style.background = "rgba(0, 0, 0, 0.7)";
-}
-
-//color change in Nav bar element
