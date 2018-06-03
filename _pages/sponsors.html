@@ -33,7 +33,7 @@ sponsors_active : active
 				</header>
 				<div class="flex-container">
 		 			{% for sponsor in item.list %}
-						<a href="{{sponsor.website}}"><img src="{{item.img}}{{sponsor.title | downcase}}.png" alt="{{sponsor.title}} logo"></a>
+						<a href="{{sponsor.website}}" target="_blank"><img class="brightness" src="{{item.img}}{{sponsor.title | downcase}}.png" alt="{{sponsor.title}} logo"></a>
 					{% endfor %}
 				</div>
 			</section><br>

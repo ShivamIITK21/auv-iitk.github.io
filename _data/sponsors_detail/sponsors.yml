@@ -19,10 +19,12 @@
   img: /assets/images/sponsors/
   list:
     - title: DORD-IITK
-      website: https://www.iitk.ac.in/dord/
+      website: http://www.iitk.ac.in/dord/
     - title: Solidworks
-      website: https://www.solidworks.in/
+      website: http://www.solidworks.in/
     - title: Mathworks
-      website: https://in.mathworks.com/
+      website: http://in.mathworks.com/
     - title: Sparton
-      website: https://www.sparton.com/
+      website: http://www.sparton.com/
+    - title: Ansys
+      website: http://www.ansys.com/
