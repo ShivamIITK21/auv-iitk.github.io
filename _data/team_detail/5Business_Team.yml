@@ -11,18 +11,9 @@ member :
     facebook: yazurgupta
     CurrProject: Public Relations
 
-  - Name: P Karthic
-    Department: Biological Sc. & Bioengg.
-    email: pkarthic@iitk.ac.in
-    profile_pic: Karthic.jpg
-    facebook: karthic.karthic.90857
-    github: karthic25
-    CurrProject: Web Master
-
-  - Name: Umesh Meena
-    Department: Mechanical Engg.
-    email: umeshm@iitk.ac.in
-    profile_pic: UmeshMeena.jpg
-    facebook: umeshmeena141
-    github: umeshmeena141
-    CurrProject: Web Master
+  - Name: Naman Agrawal
+    Department: Civil Engg.
+    profile_pic: NamanAgrawal.jpg
+    facebook: aganaman
+    github: nmnag
+    CurrProject: Content Creation

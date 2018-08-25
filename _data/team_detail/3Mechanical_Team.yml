@@ -11,17 +11,45 @@ member :
     facebook: balaramachandaran
     CurrProject: Designing Of New Vehicle
 
-  - Name: Mahesh Saboo
-    Department: Mechanical Engg.
-    email: mssaboo@iitk.ac.in
-    profile_pic: MaheshSaboo.jpg
-    facebook: mssaboo
-    github: mssaboo
-    CurrProject: Torpedo Designing And Pneumatics
-
   - Name: Naveen Chandra
     Department: Aerospace Engg.
     email: naveencr@iitk.ac.in
     profile_pic: NaveenChandra.png
     github: NaveenchandraR
     CurrProject: Designing Of New Vehicle
+
+  - Name: Rahul Parte
+    Department: Mechanical Engg.
+    email: rahulsp@iitk.ac.in
+    profile_pic: RahulParte.jpg
+    CurrProject: Designing Of New Vehicle
+  
+  - Name: Priank Prasad
+    Department: Aerospace Engg.
+    profile_pic: PriankPrasad.jpg
+    facebook: priank.prasad
+    github: priankp
+    CurrProject: Designing Of New Vehicle
+
+  - Name: Medha Agarwal
+    Department: Mathematics
+    profile_pic: MedhaAgarwal.jpg 
+    CurrProject: Designing Of New Vehicle  
+  
+  - Name: Vandit Sanadhya
+    Department: Mechanical Engg.
+    profile_pic: VanditSanadhya.jpg
+    facebook: vandit.sanadya
+    CurrProject: Designing Of New Vehicle
+
+  - Name: Prateek Yadad
+    Department: Mechanical Engg.
+    profile_pic: PrateekYadav.jpg
+    facebook: prateek.yadav11
+    github: Prateekyadav11
+    CurrProject: Designing Of New Vehicle  
+  
+  - Name: Aditya Rai
+    Department: Biological Sc. & Bioengg.
+    profile_pic: AdityaRai.jpg
+    CurrProject: Designing Of New Vehicle  

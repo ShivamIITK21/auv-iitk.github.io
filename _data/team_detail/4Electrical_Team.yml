@@ -12,10 +12,22 @@ member :
     github: VarunPwr
     CurrProject: Acoustic Signal Processing
 
-  - Name: Abhinav Arora
-    Department: Material Sc. & Engg.
-    email: aarora@iitk.ac.in
-    profile_pic: AbhinavArora.jpg
-    facebook: abhinav.arora.507
-    github: Abhi10arora
-    CurrProject: Control Systems
+  - Name: Nilay Shah
+    Department: Electrical Engg.
+    profile_pic: NilayShah.jpg
+    facebook: nilay.shah.94
+    github: snilay
+    CurrProject: Power and Actuation
+
+  - Name: Saksham Mittal
+    Department: Chemical Engg.
+    profile_pic: SakshamMittal.jpg
+    CurrProject: Power and Actuation
+
+  - Name: Inshu Namdev
+    Department: Aerospace Engg.
+    email: inshu@itk.ac.in
+    profile_pic: Inshu.jpg
+    facebook: InshuND
+    github: Inshu1
+    CurrProject: Hydrophones

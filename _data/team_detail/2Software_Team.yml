@@ -20,10 +20,31 @@ member :
     github: abhisaini
     CurrProject: GUI Developement
 
-  - Name: Suryansh Agarwal
+  - Name: Abhinav Arora
+    Department: Material Sc. & Engg.
+    email: aarora@iitk.ac.in
+    profile_pic: AbhinavArora.jpg
+    facebook: abhinav.arora.507
+    github: Abhi10arora
+    CurrProject: Control Systems
+
+  - Name: Ayush Gupta
+    Department: Mechanical Engg.
+    email: ayushgup@iitk.ac.in
+    profile_pic: AyushGupta.jpg
+    facebook: 7ayushgupta
+    github: 7ayushgupta
+    CurrProject: Computer Vision
+    
+  - Name: Naishadh Parmar
     Department: Electrical Engg.
-    email: asurya@iitk.ac.in
-    profile_pic: SuryashAgarwal.jpg
-    facebook: suryansh.agarwal.90
-    github: Suryansh470
-    CurrProject: Mission Control
+    email: naishadh@iitk.ac.in
+    profile_pic: Naishadh.jpg
+    facebook: profile.php?id=100009547482859
+    github: naishadhparmar
+    CurrProject: Computer Vision
+
+    
+
+
+  
