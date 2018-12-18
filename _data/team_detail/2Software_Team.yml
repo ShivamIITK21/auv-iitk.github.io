@@ -20,30 +20,12 @@ member :
     github: Abhi10arora
     CurrProject: Subteam Head
 
-  - Name: Abhishek Saini
-    Department: Computer Science Engg.
-    email: abhisni@iitk.ac.in
-    profile_pic: AbhishekSaini.jpg
-    facebook: abhishekkirodiwa
-    github: abhisaini
-    CurrProject: GUI Developement
-
   - Name: Ayush Gupta
     Department: Mechanical Engg.
     email: ayushgup@iitk.ac.in
     profile_pic: AyushGupta.jpg
     facebook: 7ayushgupta
     github: 7ayushgupta
-    CurrProject: Computer Vision
-    
-  - Name: Naishadh Parmar
-    Department: Electrical Engg.
-    email: naishadh@iitk.ac.in
-    profile_pic: Naishadh.jpg
-    facebook: profile.php?id=100009547482859
-    github: naishadhparmar
-    CurrProject: Computer Vision
-
     
 
 

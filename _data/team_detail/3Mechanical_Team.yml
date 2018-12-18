@@ -13,14 +13,9 @@ member :
   - Name: Naveen Chandra
     Department: Aerospace Engg.
     email: naveencr@iitk.ac.in
-    profile_pic: NaveenChandra.png
+    profile_pic: NaveenChandra.jpg
     github: NaveenchandraR
 
-  - Name: Rahul Parte
-    Department: Mechanical Engg.
-    email: rahulsp@iitk.ac.in
-    profile_pic: RahulParte.jpg
-  
   - Name: Priank Prasad
     Department: Aerospace Engg.
     profile_pic: PriankPrasad.jpg
@@ -36,12 +31,6 @@ member :
     profile_pic: VanditSanadhya.jpg
     facebook: vandit.sanadya
 
-  - Name: Prateek Yadad
-    Department: Mechanical Engg.
-    profile_pic: PrateekYadav.jpg
-    facebook: prateek.yadav11
-    github: Prateekyadav11
-  
   - Name: Aditya Rai
     Department: Biological Sc. & Bioengg.
     profile_pic: AdityaRai.jpg
