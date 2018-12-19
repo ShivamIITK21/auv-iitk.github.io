@@ -55,9 +55,9 @@ team_active : active
     				<div class="col-8 ">
     					<h2>{{division.title}}</h2>
     				</div>
-    			</div>
+          </div>
           <div class="row text-center justify-content-center">
-    				{% for div in division.member %}
+            {% for div in division.member %}
             <div class="col-sm-3 m-sm-auto">
               <img alt="image" class="img-responsive" src="/assets/images/team_members/{{div.profile_pic}}">
 
@@ -74,6 +74,7 @@ team_active : active
                    <a href="https://github.com/{{div.github}}"> <i class="fa fa-github"></i></a>
                 {% endif %}
     					</ul>
+            
             </div>
             {% endfor %}
           </div>

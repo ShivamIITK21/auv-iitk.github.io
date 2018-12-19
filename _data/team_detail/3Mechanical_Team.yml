@@ -9,19 +9,28 @@ member :
     email: rbala@iitk.ac.in
     profile_pic: Balamurgan.jpg
     facebook: balaramachandaran
-    CurrProject: Designing Of New Vehicle
-
-  - Name: Mahesh Saboo
-    Department: Mechanical Engg.
-    email: mssaboo@iitk.ac.in
-    profile_pic: MaheshSaboo.jpg
-    facebook: mssaboo
-    github: mssaboo
-    CurrProject: Torpedo Designing And Pneumatics
 
   - Name: Naveen Chandra
     Department: Aerospace Engg.
     email: naveencr@iitk.ac.in
-    profile_pic: NaveenChandra.png
+    profile_pic: NaveenChandra.jpg
     github: NaveenchandraR
-    CurrProject: Designing Of New Vehicle
+
+  - Name: Priank Prasad
+    Department: Aerospace Engg.
+    profile_pic: PriankPrasad.jpg
+    facebook: priank.prasad
+    github: priankp
+
+  - Name: Medha Agarwal
+    Department: Mathematics
+    profile_pic: MedhaAgarwal.jpg 
+  
+  - Name: Vandit Sanadhya
+    Department: Mechanical Engg.
+    profile_pic: VanditSanadhya.jpg
+    facebook: vandit.sanadya
+
+  - Name: Aditya Rai
+    Department: Biological Sc. & Bioengg.
+    profile_pic: AdityaRai.jpg

@@ -1,5 +1,5 @@
 basename1 : 1Team_Heads
-title: Team Heads
+title: Senior Members
 id : teamLeaders
 id2 : team_leaders
 member :
@@ -9,15 +9,7 @@ member :
   profile_pic: AkashJain.jpg
   facebook: akashjain5396
   github: akashjain5396
-  CurrProject: Overall Head
-
-- Name: Manish Kumar
-  Department: Aerospace Engg.
-  email: maniskj@iitk.ac.in
-  profile_pic: ManishKumar.jpg
-  facebook: maniskjais
-  CurrProject: Mechanical Head
-
+  CurrProject: Senior Mechanical Team Member
 
 - Name: Rithvik Patibandla
   Department: Electrical Engg.
@@ -25,4 +17,4 @@ member :
   profile_pic: RithvikPatibandla.jpg
   facebook: rithvik.patibandla
   github: rithvikp1998
-  CurrProject: Electrical Head
+  CurrProject: Senior Electrical Team Member

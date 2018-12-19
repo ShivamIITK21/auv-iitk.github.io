@@ -10,20 +10,23 @@ member :
     profile_pic: AkashKumar.jpg
     facebook: ksakash04
     github: ksakash
-    CurrProject: Computer Vision
+    CurrProject: Subteam Head
 
-  - Name: Abhishek Saini
-    Department: Computer Science Engg.
-    email: abhisni@iitk.ac.in
-    profile_pic: AbhishekSaini.jpg
-    facebook: abhishekkirodiwa
-    github: abhisaini
-    CurrProject: GUI Developement
+  - Name: Abhinav Arora
+    Department: Material Sc. & Engg.
+    email: aarora@iitk.ac.in
+    profile_pic: AbhinavArora.jpg
+    facebook: abhinav.arora.507
+    github: Abhi10arora
+    CurrProject: Subteam Head
 
-  - Name: Suryansh Agarwal
-    Department: Electrical Engg.
-    email: asurya@iitk.ac.in
-    profile_pic: SuryashAgarwal.jpg
-    facebook: suryansh.agarwal.90
-    github: Suryansh470
-    CurrProject: Mission Control
+  - Name: Ayush Gupta
+    Department: Mechanical Engg.
+    email: ayushgup@iitk.ac.in
+    profile_pic: AyushGupta.jpg
+    facebook: 7ayushgupta
+    github: 7ayushgupta
+    
+
+
+  
