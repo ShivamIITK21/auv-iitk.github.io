@@ -5,12 +5,12 @@ subtitle:   "Studying the motion of the vehicle and the subsequent visualisation
 date:       2019-03-30 20:04:33 +0530
 author: 
  - name: 
- - fb-link:
+ - fb-link: 
  - github-link: 
  - website-link: 
  - linkedin-link: 
 
-categories: 
+categories: 	
 excerpt_separator: <!--more-->
 comments: true
 social: true
