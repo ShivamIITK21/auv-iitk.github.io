@@ -222,8 +222,10 @@ header + header {
   justify-content: space-evenly;
 }
 .img-responsive{
-  width:80%;
+  width: 90%;
+  height: 50%;
   margin: 0px 30px !important;
+  border-radius: 50% !important;
 }
 .bg-dark {
   background-color: #2d313c;
