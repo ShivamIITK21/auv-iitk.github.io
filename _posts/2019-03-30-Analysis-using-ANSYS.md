@@ -1,51 +1,59 @@
 ---
 layout:     post
-title:      "Analysis using ANSYS"
-subtitle:   "Studying the motion of the vehicle and the subsequent visualisation of fluid flow using ANSYS."
-date:       2019-03-30 20:04:33 +0530
+title:      "ANSYS helps AUV-IITK design its latest vehicle Anahita"
+subtitle:   "Visualising the external fluid flow and analysis of frame structure using ANSYS"
+date:       2019-05-06 18:04:33 +0530
 author: 
- - name: 
+ - name: AUV-IITK
  - fb-link: 
  - github-link: 
  - website-link: 
  - linkedin-link: 
 
-categories: 	
+categories:     
 excerpt_separator: <!--more-->
 comments: true
 social: true
 css: blog-post.css
 ---
 
-AUV-IITK is a multidisciplinary team of IITK students involved in designing, manufacturing, and testing of a series of Autonomous Underwater
-Vehicles (AUVs), working towards providing a research platform for geoscientific research while preparing to compete in prestigious competitions such as NIOT, SAUVC, and RoboSub. Our team broadly consists of 4 subdivisions: Mechanical, Electrical, Software, and Business with a total of around 20 members.
+AUV-IITK is a multidisciplinary team of IITK students involved in designing, manufacturing, and testing of a series of Autonomous Underwater Vehicles (AUVs), working towards providing a research platform for geoscientific research while preparing to compete in prestigious competitions such as NIOT, SAUVC, and RoboSub. 
 
-After two successful prototypes, we have developed two AUVs, namely,  Varun and Anahita, and both of them have obtained the 1st Runners Up
-position in NIOT-SAVe 2017 and 2019 respectively.
-   
-One of the primary stages in designing and modeling of an AUV is the study of the motion of the vehicle and the subsequent visualization of fluid flow across the body of the bot. One of the major software that we use for the same purpose is ANSYS.
+After two successful prototypes, we have developed two AUVs, namely Varun and Anahita, and both of them have obtained the 1st Runners Up
+position in NIOT-SAVe 2017 and 2019 respectively. The goal of these competitions is to promote autonomy in underwater vehicles, which is considerably difficult.
 
-Frame or the outer structure is one of the most critical parts of a vehicle; it holds all the components together and provides structural strength to the AUV. This year, in Anahita, we have implemented an open frame.
+![CAD Model of ANAHITA](/assets/images/blog/posts/ANSYS/Anahita.jpg){:height="500px" width="500px"}
 
+## Flow Analysis using ANSYS
 
-To make the the best optimized frame, we use static structural of Ansys Mechanical. In static structural, firstly select the material of the part. Then we need to select a perfect mesh size. Ideally mesh should be as small as possible, but to perform this computation it would require a great processing speed. So we need to select the mesh size according to the processor. Feed all the forces that are applied at different faces in static structural. Upon computing it gives stress of the plate at each point.
+One of the primary stages in designing and modeling of an AUV is the study of the motion of the vehicle and the subsequent visualization of fluid flow across the body of the bot.
 
+Using ANSYS, we can produce 3D flow visualization. Using which we can identify vortex location, find streamlines of velocity across 3D and 2D profiles of the vehicle and find the total drag force on the robot. 
 
-![After Structural Analysis](/assets/images/blog/posts/ANSYS/AfterStructuralAnalysis.jpg){:height="300px" width="700px"}
+![Flow Velocity Streamlines visualisation using ANSYS Fluent](/assets/images/blog/posts/ANSYS/VelocityStreamlines.jpg){:height="300px" width="700px"}
 
-Lastly put the result of the static structural into topology optimization, and select the mass ratio upto which you want to reduce.
-
-![AfterTopologyOptimization](/assets/images/blog/posts/ANSYS/AfterTopologyOptimisation.jpg){:height="400px" width="700px"}
-
-![Final Frame after all analysis](/assets/images/blog/posts/ANSYS/FinalFrame.png){:height="400px" width="700px"}
-
-## Flow Analysis
-
-Using Ansys we can produce the 3 D flow visualisation. Using which we can identify vortex location, find streamlines of velocity across 3D and 2D profiles of the vehicle, find the drag of the vehicle and many other things.
-
-![Flow Velocity Streamlines](/assets/images/blog/posts/ANSYS/VelocityStreamlines.jpg){:height="300px" width="700px"}
-
-For selecting the present design of the vehicle we listed all the possible orientations and then calculated the drag for all the designs and selected the design with least drag.
-Then for the design with least drag we simulated our vehicle in Ansys fluent and obtain a drag versus speed graph of our vehicle.
+For selecting the present design of the vehicle, we listed all the possible orientations (we thought of seven designs by hand) and then calculated the drag for all the designs and selected the one with least drag. Accordingly, we simulated our vehicle in ANSYS Fluent and obtained a drag versus speed graph for our system.
 The present vehicle has a drag of 10N about at 0.6m/s speed of the vehicle.
 
+![Drag vs Velocity graph obtained](/assets/images/blog/posts/ANSYS/DragVsVelocity.png){:height="500px" width="500px"}
+
+## Optimisation of Open Frame
+
+The frame or the outer structure is one of the most critical parts of a vehicle; it holds all the components together and provides structural strength to the AUV. This year, in Anahita, we have implemented an open frame design.
+
+To make the best-optimized frame, we used the Static Structural analysis of ANSYS Mechanical. Using this we compute the stresses acting on the plate at each point, by feeding in the forces that to be applied at the different faces.
+
+Using the knowledge of the different stresses, we perform topology optimization on the plate and using it, reduce the mass of the frame without compromising on the strength and robustness it offers. 
+
+![The side plate after Topology Optimization](/assets/images/blog/posts/ANSYS/SidePlateTopologyOptimization.jpg){:height="400px" width="700px"}
+
+Using the diversity offered by the ANSYS workbench, we could finalize on the final design of the frame, and international experts have appreciated this design work. Our team presented the research paper, 'Design and Development of an Open Frame AUV: ANAHITA' at the IEEE OES Symposium held at the University of Porto in November 2018.
+
+![Final design of the frame for vehicle, ANAHITA](/assets/images/blog/posts/ANSYS/FinalFrame.png){:height="400px" width="700px"}
+
+Apart from this, we have performed structural analysis for most of the components in our AUV, taking into account the applied forces, their rigidity, and the material to be used for manufacturing.
+![Mount for Teledyne's Doppler Velocity Log being analysed](/assets/images/blog/posts/ANSYS/AfterStructuralAnalysis.png){:height="400px" width="500px"}
+
+Our team aims to develop a new vehicle for the next year of competitions, and we will be designing an entirely new structure of our bot. We will be using ANSYS to help make design choices, notably determining the hydrodynamic characteristics and analyzing structural loading of the frame, before committing to a design and beginning the manufacturing process.
+
+To know more, find us on ![Facebook](https://www.facebook.com/auviitk/)
