@@ -1,0 +1,145 @@
+---
+title: Anahita
+layout: default
+permalink: /anahita.html
+social: true
+css: anahita.css
+js: anahita.js
+anahita_active: active
+---
+
+
+<!-- Heading -->
+<div class="wrapper style3" id="v0" style="padding-bottom:0px;margin-bottom:0px;zoom:95%;">
+	<section class="container">
+		{% for item in site.data.vehicle_detail.varun %}
+		{% if item.title == "Varun" %}
+		<header class="major">
+			<h2 style="font-size:5em; padding-top:0px;padding-bottom:0px;margin-bottom:0px;">{{item.title | upcase}}
+			</h2>
+		</header>
+		<p style="font-size:1.6em;margin-bottom:0px;">{{item.byline}}</p>
+		{% endif %}
+		{% endfor %}
+	</section>
+</div>
+
+<!-- Navigation bar 2-->
+<div id="stickyBar" style="z-index:9">
+	{% for item in site.data.vehicle_detail.varun %}
+	{% if item.subtitle == 'Subsystem' %}
+	<a href="#{{item.title | downcase}}" class="button1">{{item.title}}</a>
+	{% endif %}
+	{% endfor %}
+</div>
+
+<!-- Vehicle - Varun -->
+{% for item in site.data.vehicle_detail.varun %}
+{% if item.title == "Varun" %}
+<div class="wrapper style2"
+	style="zoom:85%;background:#164b83; margin-top:0px; color:white; padding-bottom:10px;padding-top:30px;">
+	<section class="container">
+		<div class="row double">
+			<div class="5u">
+
+				<header class="major"
+					style="text-align:left !important;font-weight:400;height:350px; vertical-align: middle;padding-left:34px; padding-right:12px;display: table-cell;vertical-align: middle;">
+					<h2
+						style="font-size:2.0em;font-weight:700; margin-bottom:10px; padding:5px 5px 0px 10px;text-transform:uppercase;margin-left:-34px;">
+						{{item.featuresTitle}}</h2>
+					<ul class="list">
+						{% for feature in item.features %}
+						<li class="byline">{{ feature }}</li>
+						{% endfor %}
+					</ul>
+					<div style="width:100%; text-align:center;margin-top:15px;">
+						<a class="button3" href="{{item.reportLink}}" target="_blank"
+							style="margin:auto; display:inline-block;">{{item.reportTitle}}</a>
+					</div>
+				</header>
+			</div>
+			<div class="7u">
+				<div class="sketchfab-embed-wrapper"
+					style="margin:auto; display:inline-block; text-align:center; overflow:hidden; width:100%;">
+					<div class="sketchfab-embed-wrapper">
+						<iframe width="100%" height="400" src="{{item.vehicleModalIframeLink}}" frameborder="0" allowvr
+							allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+							onmousewheel=""></iframe>
+						<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+							<a href="{{item.vehicleModalLink}}" target="_blank"
+								style="font-weight: bold; color: #1CAAD9;">{{item.vehicleModalCaption}}</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+{% else %}
+<!-- Mechanical | Electrical | Software Subteams -->
+{% if item.title != "Electrical" %}
+<div id="{{item.title | downcase}}" class="subTeam" style="background:#f2f2f2">&emsp;</div>
+<div class="wrapper style2" style="zoom:85%; background:#f2f2f2; color:#0086b3; padding:0px; ">
+	<section class="container">
+		<div class="row double">
+			<div class="7u">
+				<div style="display: inline-block;">
+					<div style="margin:auto; text-align:center; width:80%;">
+						<img class="auvMech" style="width:100%;display: table-cell;vertical-align: middle;"
+							src="{{item.imageSource}}">
+					</div>
+				</div>
+				<p class="picCom" style="color:#006080"><a href="#" class="fa fa-angle-up"
+						style="color:#006080; text-decoration:none;"></a> {{item.imageCaption}}</p>
+			</div>
+			<div class="5u">
+				<header class="major"
+					style="text-align:left !important; padding-left:20px;font-weight:400;background:#f2f2f2; height:450px;display: table-cell;vertical-align: middle;">
+					<h2
+						style=" color:#006080; padding-left:10px;font-weight:700;font-size:1.6em;text-transform:uppercase;margin-left:-34px;">
+						{{item.title}} {{item.subtitle}}</h2>
+					<ul class="list">
+						{% for features in item.features %}
+						<li class="byline">{{ features }}</li>
+						{% endfor %}
+					</ul>
+				</header>
+			</div>
+		</div>
+	</section>
+</div>
+{% else %}
+<div id="{{item.title | downcase}}" style="background:#b3d9ff" class="subTeam">&emsp;</div>
+<div class="wrapper style2" style="zoom:85%;background:#b3d9ff; color:#0086b3;padding:0px; ">
+	<section class="container">
+		<div class="row double">
+			<div class="6u">
+				<header class="major"
+					style="text-align:left !important; padding-left:20px;font-weight:400;background:#b3d9ff; height:350px;display: table-cell;vertical-align: middle;">
+					<h2
+						style=" color:#006080;padding-left:10px;font-weight:700;font-size:1.6em;text-transform:uppercase;margin-left:-34px;">
+						{{item.title}} {{item.subtitle}}</h2>
+					<ul class="list">
+						{% for features in item.features %}
+						<li class="byline">{{ features }}</li>
+						{% endfor %}
+					</ul>
+				</header>
+			</div>
+			<div class="6u">
+				<div style="display: inline-block;">
+					<div style="margin:auto; text-align:center; width:80%;">
+						<img class="auvMech"
+							style="width:100%;margin-top:25px;display: table-cell;vertical-align: middle;"
+							src="{{item.imageSource}}">
+					</div>
+				</div>
+				<p class="picCom" style="color:#006080;"><a href="#" class="fa fa-angle-up"
+						style="color:#006080; text-decoration:none;"></a> {{item.imageCaption}}</p>
+			</div>
+		</div>
+	</section>
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}

@@ -1,0 +1,73 @@
+.auvMech {
+  display: inline-block;
+  margin: 0px 0px 15px 0px;
+  width: 49%;
+}
+
+.button1 {
+  padding: 10px 13px;
+  display: inline-block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background: #123e6d;
+  color: aqua !important;
+  cursor: pointer;
+  font-size: 1em;
+  text-decoration: none !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.button1:hover {
+  color: white !important;
+}
+
+#stickyBar {
+  position: sticky;
+  background: #123e6d;
+  width: 100%;
+  padding: 0 10%;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  top: 44px;
+}
+
+.button3 {
+  padding: 10px 15px;
+  display: inline-block;
+  margin-left: 2%;
+  margin-bottom: 5px;
+  background: #1a7999;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1em;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.button3:hover {
+  background: #0e9daf;
+  color: white;
+}
+
+.picCom {
+  clear: left;
+  margin: 0 0 30px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.byline {
+  font-size: 1.2em !important;
+}
+
+header.major .byline {
+  list-style-type: circle;
+}
