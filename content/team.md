@@ -1,33 +1,4 @@
-{{ define "main" }}
-
-    {{ partial "preloader.html" . }}
-
-    {{ partial "hero-area.html" . }}
-
-    {{ partial "navigation.html" . }}
-
-    {{ partial "about.html" . }}
-
-    <!-- {{ partial "cta.html" . }} -->
-
-    {{ partial "counter.html" . }}
-
-    <!-- {{ partial "vehicles.html" . }} -->
-
-    {{ partial "service.html" . }}
-
-    {{ partial "team_index.html" . }}
-
-    {{ partial "skill.html" . }}
-
-    {{ partial "portfolio.html" . }}
-
-    {{ partial "pricing.html" . }}
-
-    {{ partial "testimonial.html" . }}
-
-    {{ partial "blog.html" . }}
-
-    {{ partial "contact.html" . }}
-
-{{ end }}
+---
+type: "page"
+layout: "team"
+---

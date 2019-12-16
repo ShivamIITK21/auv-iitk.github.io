@@ -4,7 +4,27 @@
   
   <url>
     <loc>http://example.org/author/john-doe/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <lastmod>2019-05-06T18:04:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/2019-05-06-ansys/</loc>
+    <lastmod>2019-05-06T18:04:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/author/</loc>
+    <lastmod>2019-05-06T18:04:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/</loc>
+    <lastmod>2019-05-06T18:04:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-05-06T18:04:33+05:30</lastmod>
   </url>
   
   <url>
@@ -13,38 +33,43 @@
   </url>
   
   <url>
-    <loc>http://example.org/author/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <loc>http://example.org/blog/2017-11-07-ros-tips/</loc>
+    <lastmod>2017-11-07T21:04:03+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2017-11-07T21:04:03+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <loc>http://example.org/categories/ros/</loc>
+    <lastmod>2017-11-07T21:04:03+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/author/somrat/</loc>
-    <lastmod>2018-09-12T14:39:16+06:00</lastmod>
+    <loc>http://example.org/categories/tutorials/</loc>
+    <lastmod>2017-11-07T21:04:03+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/simple-post-title/</loc>
-    <lastmod>2018-09-12T14:39:16+06:00</lastmod>
+    <loc>http://example.org/categories/jekyll/</loc>
+    <lastmod>2017-10-30T20:04:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/author/jamica-jock/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
+    <loc>http://example.org/blog/2017-10-17-welcome-to-jekyll/</loc>
+    <lastmod>2017-10-30T20:04:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/simple-image-post/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
+    <loc>http://example.org/blog/2016-03-31-do-you-really-need-an-i7/</loc>
+    <lastmod>2016-03-30T04:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/processorrobotics/</loc>
+    <lastmod>2016-03-30T04:17:00+00:00</lastmod>
   </url>
   
   <url>
@@ -52,27 +77,23 @@
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://example.org/author/somrat/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/golang/</loc>
+    <loc>http://example.org/sponsors/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/blog/installation/</loc>
+    <loc>http://example.org/team/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/hugo/</loc>
+    <loc>http://example.org/vehicles/anahita/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/programming/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/categories/starting/</loc>
+    <loc>http://example.org/vehicles/varun/</loc>
   </url>
   
   <url>
@@ -80,11 +101,7 @@
   </url>
   
   <url>
-    <loc>http://example.org/tags/theme/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/author/themefisher/</loc>
+    <loc>http://example.org/vehicles/</loc>
   </url>
   
 </urlset>

@@ -6,7 +6,7 @@
     <description>Recent content in Author on Team AUV-IITK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Sep 2018 14:51:12 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2019 18:04:33 +0530</lastBuildDate>
     
 	<atom:link href="http://example.org/author/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,28 +14,10 @@
     <item>
       <title></title>
       <link>http://example.org/author/john-doe/</link>
-      <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
+      <pubDate>Mon, 06 May 2019 18:04:33 +0530</pubDate>
       
       <guid>http://example.org/author/john-doe/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar turpis ac est vulputate egestas at vitae nunc.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://example.org/author/somrat/</link>
-      <pubDate>Wed, 12 Sep 2018 14:39:16 +0600</pubDate>
-      
-      <guid>http://example.org/author/somrat/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue.</description>
-    </item>
-    
-    <item>
-      <title>Jamica Jock</title>
-      <link>http://example.org/author/jamica-jock/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>http://example.org/author/jamica-jock/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -48,12 +30,12 @@
     </item>
     
     <item>
-      <title>Themefisher</title>
-      <link>http://example.org/author/themefisher/</link>
+      <title></title>
+      <link>http://example.org/author/somrat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/author/themefisher/</guid>
-      <description></description>
+      <guid>http://example.org/author/somrat/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue.</description>
     </item>
     
   </channel>
