@@ -1,20 +1,18 @@
-{{ if .Site.Data.vehicles.enable }}
-{{"<!-- vehicles -->" | safeHTML}}
+{{ if .Site.Data.team_index.enable }}
+{{"<!-- about 2 -->" | safeHTML}}
 <section class="section section-bg about-2 padding-0" id="about">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-6 padding-0 ">
-                <img class="img-fluid" src="{{ .Site.Data.vehicles.image | absURL}}" alt="image">
-            </div>
             <div class="col-lg-6">
                 <div class="content-block">
                     <div class="title text-center">
-                        <h2> {{ with .Site.Data.portfolio.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.portfolio.headingSpan }} {{ . }} {{ end }}</span></h2>
+                        <h2> {{ with .Site.Data.team_index.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.team_index.headingSpan }} {{ . }} {{ end }}</span></h2>
                         <div class="border-meghna"></div>
-                    </div>                    {{with .Site.Data.vehicles.description}} <p>{{ . }}</p> {{ end }}
-                    {{with .Site.Data.vehicles.description2}} <p>{{ . }}</p> {{ end }}
+                    </div> 
+                    {{with .Site.Data.team_index.description}} <p>{{ . }}</p> {{ end }}
+                    {{with .Site.Data.team_index.description2}} <p>{{ . }}</p> {{ end }}
                     <div class="row">
-                        {{ range .Site.Data.vehicles.aboutItem }}
+                        {{ range .Site.Data.team_index.aboutItem }}
                         <div class="col-lg-6">
                             <div class="media">
                                 <div class="align-self-start mr-3">
@@ -30,9 +28,12 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-6 padding-0 ">
+                <img class="img-fluid" src="{{ .Site.Data.team_index.image | absURL}}" alt="image">
+            </div>
         </div>
     </div>
 </section>
-{{"<!-- /vehicles -->" | safeHTML}}
+{{"<!-- /about 2 -->" | safeHTML}}
 {{ end }}
 

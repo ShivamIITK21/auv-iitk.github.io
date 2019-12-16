@@ -1,0 +1,14 @@
+enable : true
+image : images/team-photo.jpg
+heading : Our
+headingSpan : Team
+description : We are a team of undergraduate students researching in the field of marine robotics. The team started off in 2014, as the brainchild of a group of enthusiastic engineers. From a team with just an idea to create an impact on underwater robotics, we have grown into a family of over 40 members, through consistent dedication and hard work.
+description2 : We have successfully designed and manufactured two robust autonomous underwater vehicles (AUV), namely, Varun and Anahita. These machines are capable of navigating in unknown environments, performing acoustic localization, and identifying objects using computer vision.
+aboutItem : 
+  - icon : tf-ion-trophy
+    title : Student Competitions
+    content : We aim to participate in National and International student-level AUV compeititions - Robosub (organised by AUVSI), Singapore AUV Challenge, and the NIOT-Student AUV Challenge.
+    
+  - icon : tf-ion-flash
+    title : Research Potential
+    content : Contribute to the development in the fields of marine technology, and implement cutting-edge research ideas to our vehicles
