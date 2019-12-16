@@ -1,31 +1,29 @@
 [![Build Status](https://travis-ci.org/AUV-IITK/auv-iitk.github.io.svg?branch=master)](https://travis-ci.org/AUV-IITK/auv-iitk.github.io)
 
-## Solarized template
+## Meghna-Hugo template
 
-We have developed a jekyll website based on the [Solarized theme](https://templated.co/solarize). The website is served at [auv-iitk.github.io](auv-iitk.github.io) or [https://auviitk.com](https://auviitk.com)
+We have developed a website based on the [Hugo](https://gohugo.io/), and the template is [meghna-hugo](https://themes.gohugo.io/meghna-hugo/). The website is served at [auv-iitk.github.io](auv-iitk.github.io).
 
 ## Build Instructions
 
-1. Install `ruby-dev` for Ubuntu:
+1. Install `hugo` for Ubuntu:
 ```
-sudo apt-get install ruby-dev
+snap install hugo --channel=extended
+// The apt install does not support multi-lingual documents, and leads to build errors
 ```
-2. Install `bundle`:
-```
-gem install bundle
-```
-3. Install the gems:
+
+2. Install the submodule:
 ```
 cd ~/auv-iitk.github.io
-bundle install
+git submodule add https://github.com/themefisher/meghna-hugo themes/meghna-hugo
 ```
-4. Update the gems:
+3. Run the website locally:
 ```
-bundle update
+hugo server
 ```
-5. Run it locally on the machine:
+4. Make changes for deployment:
 ```
-bundle exec jekyll serve
+hugo
 ```
 
 ## Usage
