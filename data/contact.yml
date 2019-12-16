@@ -1,21 +1,21 @@
 enable : true
 heading : Get In
 headingSpan : Touch
-title : Contact Details
-content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+title : Question? Feel free to contact us!
+content : We would love to hear from you regarding website feedback, sponsorship or general inquiries.
 enable_maps : true
-mapLatitude : 51.5223477
-mapLongitude: -0.1622023
+mapLatitude : 26.5123
+mapLongitude: 80.2329
 contactDetails :
   - icon : tf-map-pin
-    info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
+    info : "AUV Room, Hall 2, Indian Institute Of Technology, Kanpur - 208016"
     
   - icon : tf-ion-ios-telephone-outline
-    info : "Phone: +880-31-000-000"
+    info : "Phone: +91-9140290418"
     
   - icon : tf-ion-iphone
-    info : "Fax: +880-31-000-000"
+    info : "Fax: +91-8887148656"
     
   - icon : tf-ion-ios-email-outline
-    info : "Email: hello@meghna.com"
+    info : "Email: iitkauv@gmail.com"
     

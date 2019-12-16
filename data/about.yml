@@ -3,13 +3,13 @@ heading : About
 headingSpan : Us
 aboutItem : 
 - icon : tf-tools
-  title : We're Creative
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  title : Undergraduate Roboticists
+  content : Selected after a comprehensive recruitment, sharing our love for robotics, we build low-cost robust AUV systems.
 
 - icon : tf-strategy
-  title : We're Professional
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  title : National Competition Winners 
+  content : Twice Runners' Up (2017 & 2019) at the NIOT SAVe, organised by the National Insitute Of Ocean Technology, Chennai.
 
 - icon : tf-anchor2
-  title : We're Genius
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  title : Ingenious Design & Creativity
+  content : The designing process behind our latest vehicle, Anahita, has been appreciated at the international level.

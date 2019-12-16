@@ -50,7 +50,7 @@ summaryLength = 10
 # Site params
 [params]
 home= "Home"
-logo = "images/logo.png"
+logo = "images/auv-logo-mini.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
 description = "Autonomous Underwater Vehicle Team, IIT Kanpur"
@@ -62,10 +62,10 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "AUV-IITK"
-    content= "kuch content do bhai"
+    bgImage = "images/underwater-anahita.png"
+    icon = "images/auv-logo.png"
+    heading =""
+    content= "Undergraduate Robotics Team for Marine Technology"
     btn = true
     btnText="Explore Us"
     btnURL="#services"
@@ -83,24 +83,24 @@ custom_css = ["css/custom.css"]
     enable = true
     bgImage = "images/backgrounds/bg-1.jpg"
         [[params.counter.counterItem]]
-        title = "Happy Clients"
+        title = "Vehicles"
+        icon = "tf-ion-trophy"
+        count = "2"
+
+        [[params.counter.counterItem]]
+        title = "Team Members"
         icon = "tf-ion-android-happy"
-        count = "320"
+        count = "20"
 
         [[params.counter.counterItem]]
         title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
-
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
         icon = "tf-ion-thumbsup"
-        count = "95"
+        count = "30"
 
         [[params.counter.counterItem]]
-        title = "Cups of Coffee"
+        title = "Nightouts"
         icon = "tf-ion-coffee"
-        count = "2500"
+        count = "400+"
 
     # footer
     [params.footer]
@@ -110,10 +110,10 @@ custom_css = ["css/custom.css"]
         # social Icons
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-facebook"
-        url = "#"
+        url = "https://www.facebook.com/auviitk/"
 
         [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
+        icon = "tf-ion-social-instagram"
         url = "#"
 
         [[params.footer.socialIcon]]
@@ -126,12 +126,4 @@ custom_css = ["css/custom.css"]
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-linkedin"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
         url = "#"
