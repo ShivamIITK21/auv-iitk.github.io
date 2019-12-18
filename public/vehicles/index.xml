@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vehicles on Team AUV-IITK</title>
-    <link>http://example.org/vehicles/</link>
+    <link>http://auv-iitk.github.io/vehicles/</link>
     <description>Recent content in Vehicles on Team AUV-IITK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/vehicles/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://auv-iitk.github.io/vehicles/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://example.org/vehicles/anahita/</link>
+      <link>http://auv-iitk.github.io/vehicles/anahita/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/vehicles/anahita/</guid>
+      <guid>http://auv-iitk.github.io/vehicles/anahita/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://example.org/vehicles/varun/</link>
+      <link>http://auv-iitk.github.io/vehicles/varun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/vehicles/varun/</guid>
+      <guid>http://auv-iitk.github.io/vehicles/varun/</guid>
       <description></description>
     </item>
     
