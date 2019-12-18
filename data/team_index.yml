@@ -2,13 +2,22 @@ enable : true
 image : images/team-photo.jpg
 heading : Our
 headingSpan : Team
-description : We are a team of undergraduate students researching in the field of marine robotics. The team started off in 2014, as the brainchild of a group of enthusiastic engineers. From a team with just an idea to create an impact on underwater robotics, we have grown into a family of over 40 members, through consistent dedication and hard work.
-description2 : We have successfully designed and manufactured two robust autonomous underwater vehicles (AUV), namely, Varun and Anahita. These machines are capable of navigating in unknown environments, performing acoustic localization, and identifying objects using computer vision.
+description : Over the past years, the team has witnessed a close collaboration between students from various departments coming and sharing ideas; creating a small yet strong network of people who are eagerly looking for a low-cost solution to large-scale problems. 
+description2 : Working long hours and brainstorming some complex problems leads to a very special bonding between the members of the teams. This leads to a lot of nicknames and some extremely fun gaming nights.
 aboutItem : 
   - icon : tf-ion-trophy
-    title : Student Competitions
-    content : We aim to participate in National and International student-level AUV compeititions - Robosub (organised by AUVSI), Singapore AUV Challenge, and the NIOT-Student AUV Challenge.
+    title : Software Subsystem
+    content : Develop the algorithms controlling the robot - working on Computer Vision, Localisation, and Control Systems
     
   - icon : tf-ion-flash
-    title : Research Potential
-    content : Contribute to the development in the fields of marine technology, and implement cutting-edge research ideas to our vehicles
+    title : Electrical Subsystem
+    content : Build the electrical systems powering our AUV - working on Battery Management, Acoustic Localisation, and Circuit Designing
+  
+  - icon : tf-ion-trophy
+    title : Mechanical Subsystem
+    content : Design the entire vehicle and accessories - working on Fluid Dynamics, Actuator controls, and Pneumatics
+  
+  - icon : tf-ion-trophy
+    title : Business Subsystem
+    content : Manage the funding and outreach activities of the team by procuring sponsors and meeting people.
+  

@@ -4,7 +4,7 @@ title:      "Welcome to AUVeScope"
 subtitle:   "How to use Jekyll to create blog page"
 date:       2017-10-30 20:04:33 +0530
 author: John Doe
-image: images/blog/blog-post-3.jpg
+image: images/blog/posts/Welcome to AUVeScope/background.png
 categories: Jekyll
 excerpt_separator: <!--more-->
 comments: true

@@ -4,7 +4,7 @@ title:      "Do You Really Need An i7"
 subtitle:   "Convincing people that your robot need more cpu power."
 date:       2016-03-30 4:17:00
 author: John Doe
-image: images/blog/blog-post-3.jpg
+image: images/blog/posts/Do You Really Need An i7/background.png
 categories: ProcessorRobotics
 excerpt_separator: <!--more-->
 comments: true
