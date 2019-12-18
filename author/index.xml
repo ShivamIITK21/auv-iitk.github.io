@@ -12,12 +12,12 @@
     
     
     <item>
-      <title></title>
+      <title>John Doe</title>
       <link>http://auv-iitk.github.io/author/john-doe/</link>
       <pubDate>Mon, 06 May 2019 18:04:33 +0530</pubDate>
       
       <guid>http://auv-iitk.github.io/author/john-doe/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar turpis ac est vulputate egestas at vitae nunc.</description>
+      <description></description>
     </item>
     
     <item>
@@ -27,15 +27,6 @@
       
       <guid>http://auv-iitk.github.io/author/ayush-gupta/</guid>
       <description>I have been a part of the software subsystem</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://auv-iitk.github.io/author/somrat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://auv-iitk.github.io/author/somrat/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue.</description>
     </item>
     
   </channel>

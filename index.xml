@@ -48,41 +48,5 @@
 &lt;p&gt;  Initially Shikher thought that buying a low power armh processor was a very wise choice. Low power meant lower battery consumption so lighter batteries. Also single chip armh processors like Raspberry Pi and Odroid are way cheaper. The world was good. Until one day OpenCV came along. Initially he seemed like a nice guy. Resourceful. With his awesome HighGUI and shiny high power tools like HoughCircle, Contrast stretching he seemed like a guy Shikher&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>http://auv-iitk.github.io/sponsors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://auv-iitk.github.io/sponsors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://auv-iitk.github.io/team/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://auv-iitk.github.io/team/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://auv-iitk.github.io/vehicles/anahita/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://auv-iitk.github.io/vehicles/anahita/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://auv-iitk.github.io/vehicles/varun/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://auv-iitk.github.io/vehicles/varun/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
