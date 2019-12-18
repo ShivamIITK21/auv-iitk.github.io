@@ -24,7 +24,7 @@ summaryLength = 10
 
     [[menu.nav]]
     name = "Team"
-    URL = "our-team"
+    URL = "team-index"
     weight = 5
 
     [[menu.nav]]
