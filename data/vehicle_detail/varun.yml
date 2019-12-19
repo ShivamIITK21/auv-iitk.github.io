@@ -14,8 +14,7 @@ vehicleModalCaption: VARUN by AUVIITK on Sketchfab
 reportTitle: Report of Varun
 reportLink: /assets/documents/vehicle/varun.pdf
 subsystems: 
-  - title: Mechanical
-    subtitle: Subsystem
+  - title: Mechanical Subsystem
     features:
       - Five degrees of freedom
       - Weigth of 44.5 kg with +1% buoyancy
@@ -23,20 +22,18 @@ subsystems:
       - Motion through 6 brushed-DC Seabotix thrusters
       - Pneumatics actuation for torpedo shooting
       - Fabricated using in-house manufacturing facilities
-    imageSource: /assets/images/varun/varun_labelled.png
+    imageSource: images/varun/varun_labelled.png
     imageCaption: Exploded View of Varun
-  - title: Electrical
-    subtitle: Subsystem
+  - title: Electrical Subsystem
     features:
       - Powered by four 3S Lithium-Polymer Batteries
       - Custom made power-distribution board with protection and monitoring circuits
       - Two Logitech C290 cameras for 1080p video feed
       - Bluerobotics Depth Sensor for precision depth
       - Intel NUC for high-processing power
-    imageSource: /assets/images/varun/varun_power.png
+    imageSource: images/varun/varun_power.png
     imageCaption: Schematic Diagram of Power Distribution Board
-  - title: Software
-    subtitle: Subsystem
+  - title: Software Subsystem
     features:
       - System integration through ROS on Ubuntu 14.04
       - Simulation through Gazebo to optimize testing time
@@ -44,5 +41,5 @@ subsystems:
       - Navigation through dead-reckoning sensors
       - GUI enabled control for debugging
       - Code available on GitHub with documentation under BSD-3 License Clause
-    imageSource: /assets/images/varun/software_logos.png
+    imageSource: images/varun/software_logos.png
     imageCaption: Frameworks in Varun's Code
