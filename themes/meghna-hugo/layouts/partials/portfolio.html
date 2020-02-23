@@ -22,11 +22,11 @@
                 </div>
             </div>
         </div>
-        <div class="row filtr-container">
+        <div class="row m-5">
             {{"<!-- portfolio item -->" | safeHTML}}
-            {{ range .Site.Data.portfolio.portfolioItem }}
+            {{ range .Site.Data.portfolio.portfolioItem1 }}
             <div class="col-lg-4 filtr-item" data-category="{{ .types }}">
-                <div class="portfolio-block mb-4">
+                <div class="portfolio-block">
                     <img class="img-fluid" src="{{ .image | absURL}}" alt="work-image">
                     <div class="caption">
                         <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | absURL}}" data-lightbox="image-1">
@@ -39,6 +39,25 @@
             </div>
             {{ end }}
         </div>
+
+        <div class="row">
+            {{"<!-- portfolio item -->" | safeHTML}}
+            {{ range .Site.Data.portfolio.portfolioItem2 }}
+            <div class="col-lg-4 filtr-item" data-category="{{ .types }}">
+                <div class="portfolio-block">
+                    <img class="img-fluid" src="{{ .image | absURL}}" alt="work-image">
+                    <div class="caption">
+                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | absURL}}" data-lightbox="image-1">
+                            <i class="{{ .icon }}"></i>
+                        </a>
+                        <h4><a href="{{ .URL | absURL }}">{{ .title }}</a></h4>
+                        <p>{{ .description }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        
     </div>
 </section>
 {{"<!-- /Portfolio -->" | safeHTML}}
