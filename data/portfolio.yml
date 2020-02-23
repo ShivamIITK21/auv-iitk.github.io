@@ -8,39 +8,46 @@ filterList :
   - filterType : hardware
     filterTitle : Equipments
     
-portfolioItem :
+portfolioItem1 :
   - types : licenses
     image : images/sponsors/solidworks.png
     icon : tf-ion-android-search
-    URL : #
-    title : Tag Design
-    description : Solidworks is an  
+    URL : https://www.solidworks.com/
+    title : SolidWorks
+    description : SolidWorks is a solid modeling computer-aided design (CAD) and computer-aided engineering (CAE) computer program.
     
   - types : development
     image : images/sponsors/dord-iitk.png
     icon : tf-ion-android-search
-    URL : #
-    title : Sound system
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    URL : https://www.iitk.ac.in/dord/
+    title : DORD IITK
+    description : DORD-IITK provides administrative, financial and managerial support for the execution of all research and development projects in the Institute.
     
   - types : design, development
-    image : images/sponsors/xsense.png
+    image : images/sponsors/ansys.png
     icon : tf-ion-android-search
-    URL : #
-    title : Clock Product
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    
+    URL : https://www.ansys.com/en-in
+    title : ANSYS
+    description : ANSYS develops and markets multiphysics engineering simulation software for product design, testing and operation.
+
+portfolioItem2 :
   - types : photography, development
     image : images/sponsors/mathworks.png
     icon : tf-ion-android-search
-    URL : #
-    title : Bottol Label
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    
+    URL : https://in.mathworks.com/
+    title : MathWorks
+    description : MathWorks is an American privately held corporation that specializes in mathematical computing software. Its major products include MATLAB and Simulink, which support data analysis and simulation.
+  
   - types : design
     image : images/sponsors/ids.png
     icon : tf-ion-android-search
-    URL : #
-    title : Shopping Bag
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-  
+    URL : https://en.ids-imaging.com/
+    title : IDS
+    description : IDS Imaging Development Systems GmbH is a leading manufacturer of digital industrial cameras.
+
+  - types : design
+    image : images/sponsors/sparton.png
+    icon : tf-ion-android-search
+    URL : https://sparton.com/
+    title : Sparton
+    description : Defense contractor and Contract Manufacturer that specializes in design, manufacturing and distribution for outsourcing OEMs.
