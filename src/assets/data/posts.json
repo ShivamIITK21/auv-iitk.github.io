@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "Title": "Post 1",
+      "Content": "AUV-IITK is a multidisciplinary team of IITK students involved in designing, manufacturing, and testing of a series of Autonomous Underwater Vehicles (AUVs), working towards providing a research platform for geoscientific research while preparing to compete in prestigious competitions such as NIOT, SAUVC, and RoboSub."
+    },
+    {
+      "Title": "Post 2",
+      "Content": "AUV-IITK is a multidisciplinary team of IITK students involved in designing, manufacturing, and testing of a series of Autonomous Underwater Vehicles (AUVs), working towards providing a research platform for geoscientific research while preparing to compete in prestigious competitions such as NIOT, SAUVC, and RoboSub."
+    },
+    {
+      "Title": "Post 3",
+      "Content": "AUV-IITK is a multidisciplinary team of IITK students involved in designing, manufacturing, and testing of a series of Autonomous Underwater Vehicles (AUVs), working towards providing a research platform for geoscientific research while preparing to compete in prestigious competitions such as NIOT, SAUVC, and RoboSub."
+    }
+  ]
+}

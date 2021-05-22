@@ -1,0 +1,19 @@
+
+.margin-neg{
+    margin-top: -2rem !important;
+}
+
+.large-image-responsiveness{
+    width: 100%;
+}
+
+@media(max-width: 1200px){
+    .large-image-responsiveness{
+        width: 75% !important;
+    }
+}
+@media(max-width: 992px){
+    .large-image-responsiveness{
+        width: 100% !important;
+    }
+}

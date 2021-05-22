@@ -1,0 +1,41 @@
+.elec-edit{
+    background-color: white;
+    border: none;
+    margin-bottom: 2.5rem;
+}
+
+@media(max-width:992px){
+    .elec-edit{
+        margin-top: 8rem;
+    }
+}
+@media(max-width: 992px)
+{
+    .image-responsive-shift2{
+        margin-top: 12rem;
+    }
+}
+
+.mechanical-list{
+    margin-top: 8rem;
+}
+
+.electrical-list{
+    margin-top: 10rem;
+}
+
+@media(max-width: 1200px){
+    .electrical-list{
+        margin-top: 8rem;
+    }
+}
+@media(max-width: 768px){
+    .mechanical-list{
+        margin-top: 0;
+        margin-bottom: 8rem;
+    }
+
+    .image-responsive-shift2{
+        margin-top: 0;
+    }
+}
