@@ -1,0 +1,149 @@
+{
+    "teamData": [
+        {
+            "heading": "Faculty Advisor",
+            "items": [
+                {
+                    "name": "Prof. Indranil Saha",
+                    "subheading": "Computer Science and Engineering Department, IITK",
+                    "image": "team/indranilSaha.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                }
+            ]
+        },
+        {
+            "heading": "Senior Members",
+            "items": [
+                {
+                    "name": "Ayush Gupta",
+                    "subheading": "Y17, Software Subsystem",
+                    "image": "team/ayush.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                },
+                {
+                    "name": "Inshu Namdev",
+                    "subheading": "Y17, Electrical Subsystem",
+                    "image": "team/inshu.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                },
+                {
+                    "name": "Priank Prasad",
+                    "subheading": "Y17, Mechanical Subsystem",
+                    "image": "team/p.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                }
+            ]
+        },
+        {
+            "heading": "Subsystem Heads",
+            "items": [
+                {
+                    "name": "Devendra Kharolia",
+                    "subheading": "Y18, Team Head",
+                    "image": "team/devendra.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                },
+                {
+                    "name": "Jaskeerat Singh",
+                    "subheading": "Y18, Team Head",
+                    "image": "team/jaskeerat.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                },
+                {
+                    "name": "Kamlesh Kalsariya",
+                    "subheading": "Y18, Team Head",
+                    "image": "team/kamlesh.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                }
+            ]
+        },
+        {
+            "heading": "Software Subsystem",
+            "items": [
+                {
+                    "name": "Shubham Korde",
+                    "subheading": "",
+                    "image": "team/shubham.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                },
+                {
+                    "name": "Prakhar Maheshwari",
+                    "subheading": "",
+                    "image": "team/prakhar.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                },
+                {
+                    "name": "Aaryansh Mohan Bansal",
+                    "subheading": "",
+                    "image": "team/aryansh.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                },
+                {
+                    "name": "Krishna Agarwal",
+                    "subheading": "",
+                    "image": "team/Krishna.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                }
+            ]
+        },
+        {
+            "heading": "Electrical Subsystem",
+            "items": [
+                {
+                    "name": "Neelabh Singhania",
+                    "subheading": "",
+                    "image": "team/neelabh.jpg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                },
+                {
+                    "name": "Jayant Reddy",
+                    "subheading": "",
+                    "image": "team/jayant.jpeg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/"
+                }
+            ]
+        },
+        {
+            "heading": "Mechanical Subsystem",
+            "items": [
+                {
+                    "name": "Shashank Katiyar",
+                    "subheading": "",
+                    "image": "team/shashank.jpeg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/",
+                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit "
+                },
+                {
+                    "name": "Ritam Jana",
+                    "subheading": "Y20, Team Member",
+                    "image": "team/placeholder.png",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/",
+                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit "
+                },
+                {
+                    "name": "Vedant Gitte",
+                    "subheading": "Y20, Team Member",
+                    "image": "team/placeholder.png",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/",
+                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit "
+                }
+            ]
+        }
+    ]
+}

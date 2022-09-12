@@ -1,0 +1,52 @@
+.event-image {
+  width: 100%;
+}
+
+.event-container {
+  height: 100%;
+}
+
+.headings-container {
+  text-align: center;
+}
+
+.comp-heading {
+  font-weight: 500;
+  font-family: var(--font-heading);
+  color: var(--color-tertiary);
+  margin: 0;
+  padding: 15px 15px 15px 0px;
+}
+
+.comp-heading:hover {
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  color: var(--color-quartenary);
+}
+
+.primary-heading {
+  font-family: var(--font-heading);
+}
+
+.secondary-heading {
+  font-family: var(--font-primary);
+}
+
+.event-image {
+  box-shadow: 0px 10px 15px rgba(53, 35, 35, 0.5);
+}
+
+.auv-description-primary {
+  font-size: 1.8rem;
+}
+
+.tarang-link{
+  color: rgb(81, 179, 224) !important;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.tarang-link:hover{
+  font-size: 1.5rem;
+  transform: scale(1.2);
+}
