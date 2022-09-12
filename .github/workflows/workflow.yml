@@ -23,7 +23,7 @@ jobs:
           python-version: '2.7'
 
       - name: Install and build
-        run: npm install && npm run build
+        run: npm install --force && npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
