@@ -20,6 +20,10 @@ import EventsPage from "views/EventsPage/EventsPage";
 import BlogsPage from "views/BlogsPage/BlogsPage";
 import ContactUsPage from "views/ContactUsPage/ContactUsPage";
 import SingleBlog from "views/SingleBlogs/SingleBlog";
+import Mechanical from "views/MembersPage/Mechanical";
+import Software from "views/MembersPage/Software";
+import Electrical from "views/MembersPage/Electrical";
+import Business from "views/MembersPage/Business";
 
 const App = () => {
   return (
@@ -59,7 +63,13 @@ const App = () => {
             path="/contact-us"
             render={(props) => <ContactUsPage {...props} />}
           />
+          <Route path="/mechanical" render={()=> <Mechanical/> } />
+          <Route path="/electrical" render={()=> <Electrical/> } />
+          <Route path="/software" render={()=> <Software/> } />
+          <Route path="/business" render={()=> <Business/> } />
           <Redirect to="/landing-page" />
+
+
         </Switch>
 
         <Footer />

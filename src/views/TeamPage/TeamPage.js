@@ -37,10 +37,10 @@ import React from "react";
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 
 // core components
-import Subsytems from "./components/Subsystems/Subsystems";
 import TeamVideo from './components/TeamVideo/TeamVideo';
 import LegacyCarousel from "./components/LegacyCarousel/LegacyCarousel";
 import TeamHeads from "./components/TeamHeads/TeamHeads";
+import SubS from "./components/Subsystems/Subsystem";
 
 import FadeIn from 'views/Animations/FadeIn';
 function LandingPage() {
@@ -59,7 +59,7 @@ function LandingPage() {
                     <TeamHeads />
                 </FadeIn>
                 <FadeIn>
-                    <Subsytems />
+                    <SubS />
                 </FadeIn>
                 <FadeIn>
                     <LegacyCarousel />
