@@ -1,5 +1,9 @@
-ame: Build and Deploy
-on: [push]
+name: Build and Deploy
+on: 
+  push:
+    branches:
+      - devel
+      - master
 permissions:
   contents: write
 jobs:
