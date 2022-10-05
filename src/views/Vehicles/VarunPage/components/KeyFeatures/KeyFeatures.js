@@ -1,62 +1,69 @@
-import React from 'react';
+import React from "react";
+import { useEffect } from "react";
 import "./KeyFeatures.css";
-import {useEffect} from 'react';
-import {
-
-    Container,
-    Row,
-    Col
-} from "reactstrap";
-
-const embedstyle= {
-    fontSize: "13px",
-    fontWeight: "normal",
-    margin: "5px",
-    color: "#4A4A4A"
-};
-
+import { Container, Row, Col, Tabs, Tab, Table } from "react-bootstrap";
+import specs from "../../data.js";
 
 function Posts() {
     useEffect(() => {
-        window.scrollTo(0, 0)
-      });
+        window.scrollTo(0, 0);
+    });
     return (
         <>
-            <div className="section landing-section">
-            <Container>                <Row className="d-flex justify-content-center">
-                    <Col md="2"></Col>
-                    <Col className="ml-auto mr-auto" md="8">
-                        <h2 className="text-center mb-4 small-heading">Key Features</h2>
-                    </Col>
-                    <Col md="2"></Col>
-                    <Col md="6" className="text-center"> 
-                        <div className="">
-                            <iframe title="A 3D model" className="sketchfab-ssk1 sketchfab-responsive" src="https://sketchfab.com/models/6e1274e10d9e4b6a922a5ed0baf9445f/embed?preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                            <p style={embedstyle}>
-                                {/* <a href="https://sketchfab.com/3d-models/varun-6e1274e10d9e4b6a922a5ed0baf9445f?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">VARUN</a>
-        by <a href="https://sketchfab.com/karthic?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">AUVIITK</a>
-        on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a> */}
-                            </p>
-                        </div>
-                    </Col>
-                    <Col md="6" className="text-center">
-                        <ul className="key-features-varun">
-                            <li><h4 className="text-left auv-description-primary"><b >Modular design</b> for easy assembly and installation</h4></li>
-                            <li><h4 className="text-left auv-description-primary">Staging vehicle to carry out experiments</h4></li>
-                            <li><h4 className="text-left auv-description-primary">Capable of <b>underwater inspection and data collection </b></h4></li>
-                            <li><h4 className="text-left auv-description-primary">Upto <b>4 hours of continuous operation</b> capability</h4></li>
-                            <li><h4 className="text-left auv-description-primary">Budget of Rs. <b >7,45,000</b></h4></li>
-                        </ul>
-                    </Col>
-                    
-                </Row>
-            </Container>
+            <div className="mt-5">
+                <Container>
+                    <div className="title-block">
+                        <Row className="mt-5 justify-content-center heading-component">
+                            <div style={{ textAlign: 'center', marginBottom:'20px' }}>
+                                <h2 style={{ fontSize: "4.5rem", margin:'0' }}>VARUN</h2>
+                                {/* <h3 style={{ fontSize: "3rem" }}>The First of them</h3> */}
+                            </div>
+                        </Row>
+                    </div>
 
+                    <Row className="d-flex col-main justify-content-center">
+                        <Col sm="12" lg="8" className="my-auto text-center mt-5">
+                            <div className="iframe-container">
+                                <iframe style={{ boxShadow: 'none' }} title="A 3D model" className="cad-model sketchfab-responsive" src="https://sketchfab.com/models/6e1274e10d9e4b6a922a5ed0baf9445f/embed?autospin=1&autostart=1&preload=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            </div>
+                        </Col>
+                        <Col sm="12" lg="4" className="featureCol my-auto">
+                            <div className="briefspec">
+                                <Tabs defaultActiveKey="home" id="uncontrolled-tab">
+                                    <Tab className="tab-content" eventKey="home" title="Overview">
+                                        <div className="my-1">
+                                            {specs.brief}
+                                        </div>
+                                        <div>
+                                            <a className="tdr-button" href="https://drive.google.com/file/d/0B952Pi5TJ8RGcWJRUWF5YllsM2M/view?resourcekey=0-YEob3LFfYmo5QhRv_96zdA" target="_blank" rel="noopener noreferrer">
+                                                Report
+                                            </a>
+                                        </div>
+                                    </Tab>
+                                    <Tab className="tab-content" eventKey="specs" title="Specifications">
+                                        <Table bordered className="my-1">
+                                            <tbody>
+                                                {
+                                                    specs.specsTable.map(
+                                                        (data) => (
+                                                            <tr>
+                                                                <td style={{ width: '30%', fontWeight: 'bold' }}>{data.name}</td>
+                                                                <td>{data.spec}</td>
+                                                            </tr>
+                                                        )
+                                                    )
+                                                }
+                                            </tbody>
+                                        </Table>
+                                    </Tab>
+                                </Tabs>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
-
         </>
     );
-
-
 }
+
 export default Posts;

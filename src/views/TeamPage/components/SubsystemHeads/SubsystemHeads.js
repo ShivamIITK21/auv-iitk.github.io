@@ -11,6 +11,7 @@ import {
 } from "reactstrap";
 import "./SubsystemHeads.css";
 import team from "../../../../data/TeamMembers.json";
+
 function TalkAbout() {
     console.log(String(team.teamData[0].items[0].image));
     return (
@@ -29,7 +30,7 @@ function TalkAbout() {
                                                 console.log(teamMember);
                                                 return(
                                                     <Col lg="3 ml-auto mr-auto" sm="6">
-                                                        <Card className="card-profile card-plain card-ssk">
+                                                        <Card className="card-profile card-plain card-auv">
                                                             <CardBody>
                                                                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
                                                                     <div className="author">

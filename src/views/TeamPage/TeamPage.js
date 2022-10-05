@@ -37,10 +37,12 @@ import React from "react";
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 
 // core components
-import Team from "../LandingPage/components/Team/Team.js";
-import Subsytems from "./components/Subsystems/Subsystems";
-import SubsystemHeads from './components/SubsystemHeads/SubsystemHeads';
 import TeamVideo from './components/TeamVideo/TeamVideo';
+import LegacyCarousel from "./components/LegacyCarousel/LegacyCarousel";
+import TeamHeads from "./components/TeamHeads/TeamHeads";
+import SubS from "./components/Subsystems/Subsystem";
+
+import FadeIn from 'views/Animations/FadeIn';
 function LandingPage() {
     document.documentElement.classList.remove("nav-open");
     React.useEffect(() => {
@@ -50,13 +52,21 @@ function LandingPage() {
         };
     });
     return (
-        <div className="mobile-responsive">
-        <ExamplesNavbar activePage="/team"/>
+        <div>
+            <ExamplesNavbar activePage="/team" />
             <div className="main">
-                <Team style={{marginTop:"8rem"}}/>
-                <Subsytems />
-                <SubsystemHeads />
-                <TeamVideo />
+                <FadeIn>
+                    <TeamHeads />
+                </FadeIn>
+                <FadeIn>
+                    <SubS />
+                </FadeIn>
+                <FadeIn>
+                    <LegacyCarousel />
+                </FadeIn>
+                <FadeIn>
+                    <TeamVideo />
+                </FadeIn>
             </div>
         </div>
     );

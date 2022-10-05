@@ -1,0 +1,50 @@
+{
+    "teamData": [
+        {
+            "heading": "Team Members",
+            "items": [
+                {
+                    "name": "Neelabh Singhania",
+                    "subheading": "Y19, Subsystem Head",
+                    "image": "team/neelabh.jpg",
+                    "facebook": "https://www.facebook.com/neelabh.singhania.3",
+                    "linkedin": "https://www.linkedin.com/in/neelabh-singhania/",
+                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                },
+                {
+                    "name": "Jayant Reddy",
+                    "subheading": "Y19, Team Member",
+                    "image": "team/jayant.jpeg",
+                    "facebook": "https://www.facebook.com/",
+                    "linkedin": "https://www.linkedin.com/",
+                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                },
+                {
+                    "name": "Ayush Agrawal",
+                    "subheading": "Y20, Team Member",
+                    "image": "team/AyushAgrawal.jpeg",
+                    "facebook": "https://www.facebook.com/profile.php?id=100056256783476",
+                    "linkedin": "https://www.linkedin.com/in/ayush-agrawal-6b6b51206",
+                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                },
+                {
+                    "name": "Dakshita Mittal",
+                    "subheading": "Y20, Team Member",
+                    "image": "team/DakshitaMittal.jpg",
+                    "facebook": "https://www.facebook.com/dakshita.mittal.39",
+                    "linkedin": "https://www.linkedin.com/in/dakshita-mittal-1a7902210/",
+                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                },
+                {
+                    "name": "Sanika Gumaste",
+                    "subheading": "Y20, Team Member",
+                    "image": "team/SanikaGumaste.jpeg",
+                    "facebook": "https://www.facebook.com/sanika.gumaste.3",
+                    "linkedin": "https://www.linkedin.com/in/sanika-gumaste-034425213",
+                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                }
+                
+            ]
+        }
+    ]
+}
