@@ -24,7 +24,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm ci --unsafe-perm=true --allow-root
+          npm install --unsafe-perm=true --allow-root
           npm run build
 
       - name: Deploy 🚀
