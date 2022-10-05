@@ -24,6 +24,8 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
+          npm cache clean --force
+          rm -rf node_modules
           npm install --unsafe-perm=true --allow-root
           npm run build
 
