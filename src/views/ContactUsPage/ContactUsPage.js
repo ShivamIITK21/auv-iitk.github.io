@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-use-before-define
 import React, { Component } from "react";
 import { Button, Col, Container, Form, Input, InputGroup, InputGroupAddon, InputGroupText, Row } from 'reactstrap'
 import axios from "../../axios-contact";

@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-use-before-define
 import React, { Component } from "react";
 // reactstrap components
 import { Container, Row, Spinner } from "reactstrap";
