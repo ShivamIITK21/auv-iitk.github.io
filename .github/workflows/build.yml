@@ -1,12 +1,12 @@
 name: Build and Deploy
 on: 
+  workflow_dispatch: {}
   push:
     branches:
       - devel
       - master
       - main
-  workflow_dispatch:
-  
+
 permissions:
   contents: write
 jobs:
