@@ -68,8 +68,6 @@ const App = () => {
           <Route path="/software" render={()=> <Software/> } />
           <Route path="/business" render={()=> <Business/> } />
           <Redirect to="/landing-page" />
-
-
         </Switch>
 
         <Footer />
