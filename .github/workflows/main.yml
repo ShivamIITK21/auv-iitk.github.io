@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.22.12]
+        node-version: [16.x]
 
     steps:
       - name: Checkout 🛎️
@@ -24,7 +24,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm ci --unsafe-perm=true --allow-root
+          npm ci
           npm run build
 
       - name: Deploy 🚀
