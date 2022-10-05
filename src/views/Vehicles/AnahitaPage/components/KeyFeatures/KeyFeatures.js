@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import "./KeyFeatures.css";
-import { Container, Row, Col, Tabs, Tab, Table } from "react-bootstrap";
+import { Col, Container, Row, Tab, Table, Tabs } from "react-bootstrap";
 import specs from "../../data.js";
 
 function Posts() {
@@ -24,7 +24,7 @@ function Posts() {
                     <Row className="d-flex col-main justify-content-center">
                         <Col sm="12" lg="8" className="my-auto text-center mt-5">
                             <div className="iframe-container">
-                                <iframe style={{ boxShadow: 'none' }} title="A 3D model" className="cad-model sketchfab-responsive" src="https://sketchfab.com/models/21c78ab51dda4c7a9445b4fb0b877e22/embed?autospin=1&autostart=1&preload=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                <iframe style={{ boxShadow: 'none' }} title="A 3D model" className="cad-model sketchfab-responsive" src="https://sketchfab.com/models/21c78ab51dda4c7a9445b4fb0b877e22/embed?autospin=1&autostart=1&preload=1" frameBorder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                             </div>
                         </Col>
                         <Col sm="12" lg="4" className="featureCol my-auto">
@@ -46,7 +46,7 @@ function Posts() {
                                                 {
                                                     specs.specsTable.map(
                                                         (data) => (
-                                                            <tr>
+                                                            <tr key={data.spec}>
                                                                 <td style={{ width: '30%', fontWeight: 'bold' }}>{data.name}</td>
                                                                 <td>{data.spec}</td>
                                                             </tr>

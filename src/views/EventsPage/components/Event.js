@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
 import "./Event.css";
 import FadeIn from "views/Animations/FadeIn";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ function Event(props) {
           <Container>
             <Row className="event-container">
               <Col className="ml-auto mr-auto" md="12">
-                <a href={props.event.link} target="_blank">
+                <a href={props.event.link} target="_blank" rel="noopener noreferrer">
                   <h2 className="text-left comp-heading heading-main">
                     {props.event.name}
                   </h2>

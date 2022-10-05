@@ -8,7 +8,7 @@ import sparton from 'assets/img/sponsors/sparton.png'
 import xsens from 'assets/img/sponsors/xsens.png'
 import ids from 'assets/img/sponsors/ids.png'
 import './Sponsors.css'
-import { Container, Row, Col } from 'reactstrap'
+import { Col, Container, Row } from 'reactstrap'
 
 function Sponsors() {
     return (

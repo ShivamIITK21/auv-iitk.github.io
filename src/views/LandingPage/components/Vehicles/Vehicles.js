@@ -5,9 +5,9 @@ import anahita from "assets/img/anahita/anahita-underwater.png";
 import { Link } from "react-router-dom";
 import "./Vehicles.css"
 import {
+  Col,
   Container,
-  Row,
-  Col
+  Row
 } from "react-bootstrap";
 
 function Vehicles() {

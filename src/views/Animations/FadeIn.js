@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import fadeIn from "./FadeIn.css";
 
 export default function FadeInSection(props) {

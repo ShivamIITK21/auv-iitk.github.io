@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Container, Card, Row, Col } from "react-bootstrap"
+import { Card, Col, Container, Row } from "react-bootstrap"
 import "./LegacyCarousel.css"
 import team from "../../../../data/LegacyMembers.json";
 
@@ -22,7 +22,6 @@ const responsive = {
         slidesToSlide: 1 // optional, default to 1.
     }
 };
-
 
 const LegacyCarousel = () => {
     return (
@@ -48,26 +47,27 @@ const LegacyCarousel = () => {
                         removeArrowOnDeviceType={["mobile"]}
                         dotListClass="react-multi-carousel-dot-list"
                         itemClass="carousel-item-padding-40-px"
-                        renderButtonGroupOutside={true}
+                        renderButtonGroupOutside={true} 
                     >
                         {
                             team.teamData.map((section) => {
                                 return (
-                                    <div>
+                                    <div key={""}>
                                         {section.items.map((teamMember) => {
                                             return (
-                                                <div className="carousel-item text-center">
+                                                <div className="carousel-item text-center" key={teamMember.name}>
                                                     <div className="text-center legacy-cards">
                                                         <Card.Img src={require("assets/img/" + teamMember.image)} className="legacy-images" />
                                                         <Card.Body>
                                                             <Card.Title className="legacy-name">{teamMember.name}</Card.Title>
                                                             <Card.Text className="legacy-position">{teamMember.subheading} </Card.Text>
-                                                            <a href={teamMember.linkedin} target="_blank" className="legacy-social"> <i className="fa fa-linkedin fa-2x" /></a>
+                                                            <a href={teamMember.linkedin} target="_blank" className="legacy-social" rel="noopener noreferrer"> <i className="fa fa-linkedin fa-2x" /></a>
                                                         </Card.Body>
                                                     </div>
                                                 </div>
                                             )
-                                        })}
+                                        }
+                                        )}
                                     </div>
                                 )
                             })

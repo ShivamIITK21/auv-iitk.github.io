@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Card, Col, Container, Row } from 'react-bootstrap'
 import niotwin from '../../../../assets/img/niotwinner.png'
 import desbot from '../../../../assets/img/anahita_design.jpg'
 import atwork from '../../../../assets/img/newreplaced.jpg'

@@ -21,17 +21,17 @@ import React from "react";
 // reactstrap components
 import {
   Button,
-  Label,
+  Col,
+  Container,
   FormGroup,
   Input,
+  Label,
+  Nav,
   NavItem,
   NavLink,
-  Nav,
-  TabContent,
-  TabPane,
-  Container,
   Row,
-  Col
+  TabContent,
+  TabPane
 } from "reactstrap";
 
 // core components

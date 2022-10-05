@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import './AboutUs.css'
 import {
 
+  Col,
   Container,
-  Row,
-  Col
+  Row
 } from 'reactstrap'
 
 // eslint-disable-next-line no-unused-vars
@@ -13,7 +13,7 @@ function AboutUs () {
   useEffect(() => {
     window.scrollTo(0, 0)
   })
-  console.log(this.props.location);
+  // console.log(this.props.location);
   return (
         <>
             <div className="section landing-section text-center ">

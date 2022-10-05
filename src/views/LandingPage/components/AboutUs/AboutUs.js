@@ -3,7 +3,7 @@ import anahitapic from "assets/img/anahita-1.jpg";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./AboutUs.css";
-import { Container, Row, Col } from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
 
 function AboutUs(props) {
   useEffect(() => {
@@ -51,7 +51,6 @@ function AboutUs(props) {
             </Col>
 
             <div className="all-icons-container">
-              
 
               <div className="single-icon-container">
                 <div className=" icon-auv">

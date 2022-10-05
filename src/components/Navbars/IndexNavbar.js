@@ -23,12 +23,12 @@ import classnames from "classnames";
 import {
   Button,
   Collapse,
-  NavbarBrand,
-  Navbar,
+  Container,
+  Nav,
   NavItem,
   NavLink,
-  Nav,
-  Container
+  Navbar,
+  NavbarBrand
 } from "reactstrap";
 
 function IndexNavbar() {

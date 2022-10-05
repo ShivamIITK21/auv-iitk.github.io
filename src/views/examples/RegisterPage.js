@@ -19,7 +19,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Card, Form, Input, Container, Row, Col } from "reactstrap";
+import { Button, Card, Col, Container, Form, Input, Row } from "reactstrap";
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";

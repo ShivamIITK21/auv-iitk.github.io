@@ -6,9 +6,9 @@ import {useEffect} from "react";
 import "./Team.css"
 import {
  
+    Col,
     Container,
-    Row,
-    Col
+    Row
 } from "reactstrap";
 
 function Team() {

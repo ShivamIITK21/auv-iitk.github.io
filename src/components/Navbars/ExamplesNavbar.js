@@ -7,16 +7,16 @@ import "./ExamplesNavbar.css";
 // reactstrap components
 import {
   Collapse,
-  NavbarBrand,
-  Navbar,
+  Container,
+  DropdownItem,
+  DropdownMenu,
+  DropdownToggle,
+  Nav,
   NavItem,
   NavLink,
-  Nav,
-  Container,
+  Navbar,
+  NavbarBrand,
   UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from "reactstrap";
 
 function ExamplesNavbar(props) {

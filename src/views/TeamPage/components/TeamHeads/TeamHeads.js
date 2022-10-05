@@ -1,14 +1,12 @@
 import React from 'react';
 import teamphoto from "assets/img/team-photo.jpg"
-import { Link } from 'react-router-dom';
 import { useEffect } from "react";
 
 import "./TeamHeads.css"
 import {
-    Card,
+    Col,
     Container,
-    Row,
-    Col
+    Row
 } from "react-bootstrap";
 import teamheads from "../../../../data/TeamHeads.json";
 
@@ -39,11 +37,11 @@ function TeamHeads() {
                     {
                         teamheads.teamData.map((section) => {
                             return (
-                                <div>
+                                <div key={""}>
                                     <Row className="justify-content-center">
                                         {section.items.map((teamMember) => {
                                             return (
-                                                <Col lg="3" md="6" className="team text-center">
+                                                <Col lg="3" md="6" className="team text-center" key={teamMember.name}>
                                                     <div className="alignment">
                                                         <div className="member">
                                                             <div className="member-img">
@@ -52,11 +50,11 @@ function TeamHeads() {
                                                                         className="member-img img-fluid" alt="" />
                                                                 </div>
                                                                 <div className="social">
-                                                                    <a href={teamMember.facebook} target='_blank'><i className="fa fa-facebook fa-2x" /></a>
-                                                                    <a href={teamMember.linkedin} target='_blank'><i className="fa fa-linkedin fa-2x" /></a>
+                                                                    <a href={teamMember.facebook} target='_blank' rel="noopener noreferrer"><i className="fa fa-facebook fa-2x" /></a>
+                                                                    <a href={teamMember.linkedin} target='_blank' rel="noopener noreferrer"><i className="fa fa-linkedin fa-2x" /></a>
                                                                 </div>
                                                             </div>
-                                                            <div class="member-info">
+                                                            <div className="member-info">
                                                                 <h4>{teamMember.name}</h4>
                                                                 <span>{teamMember.subheading}</span>
                                                             </div>

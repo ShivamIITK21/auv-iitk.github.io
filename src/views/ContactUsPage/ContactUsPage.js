@@ -1,30 +1,38 @@
 // eslint-disable-next-line no-use-before-define
 import React, { Component } from "react";
-import { Form, Input, InputGroupAddon, InputGroupText, InputGroup, Container, Row, Col, Button } from 'reactstrap'
-import Spinner from "../../components/UI/Spinner/Spinner";
+import { Button, Col, Container, Form, Input, InputGroup, InputGroupAddon, InputGroupText, Row } from 'reactstrap'
 import axios from "../../axios-contact";
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 import "./ContactUsPage.css"
 class ContactUsPage extends Component {
-  state = {
-    name: "",
-    message: "",
-    email: ""
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      message: "",
+      email: ""
+    };
+    this.postDataHandler = this.postDataHandler.bind(this);
+    this.nameChangedHandler = this.nameChangedHandler.bind(this);
+    this.messageChangedHandler = this.messageChangedHandler.bind(this);
+    this.emailChangedHandler = this.emailChangedHandler.bind(this);
+  }
+
   componentDidMount() {
     window.scrollTo(0, 0);
     document.documentElement.classList.remove("nav-open");
   }
 
-  postDataHandler = (event) => {
+  postDataHandler(event) {
     event.preventDefault();
-    console.log("Post Data Handler Called");
+    // console.log("Post Data Handler Called");
     const Data = {
       name: this.state.name,
       message: this.state.message,
       email: this.state.email
     }
     axios.post('/message.json', Data).then(response => {
+      // eslint-disable-next-line no-console
       console.log(response);
     })
 
@@ -35,21 +43,21 @@ class ContactUsPage extends Component {
     })
   }
 
-  nameChangedHandler = (event) => {
+  nameChangedHandler(event) {
     event.preventDefault();
     this.setState({
       name: event.target.value
     })
   }
 
-  messageChangedHandler = (event) => {
+  messageChangedHandler(event) {
     event.preventDefault();
     this.setState({
       message: event.target.value
     })
   }
 
-  emailChangedHandler = (event) => {
+  emailChangedHandler(event) {
     event.preventDefault();
     this.setState({
       email: event.target.value

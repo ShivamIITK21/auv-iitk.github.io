@@ -9,6 +9,3 @@ WORKDIR /app
 
 RUN npm install --unsafe-perm=true --allow-root
 RUN npm run build
-
-RUN mv build /build
-

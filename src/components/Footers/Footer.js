@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  Row, Container, Col, NavLink,
+  Col, Container, NavLink, Row,
 } from "reactstrap";
 import './Footer.css'
 import logo from "assets/img/logos/whitelogo.png"

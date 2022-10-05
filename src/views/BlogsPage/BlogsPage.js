@@ -1,19 +1,21 @@
 // eslint-disable-next-line no-use-before-define
 import React, { Component } from "react";
 // reactstrap components
-import { Container, Row, Col, Spinner } from "reactstrap";
+import { Container, Row, Spinner } from "reactstrap";
 
 // core components
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
-import axios from "../../axios-blogs";
 import blogsData from "../../data/Blogs.json";
 import Blog from "./components/Blog";
 class BlogsPage extends Component {
-  state = {
-    blogs: 0,
-    blogsArray: [],
-    loading: "false",
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      blogs: 0,
+      blogsArray: [],
+      loading: "false",
+    };
+  }
   // React.useEffect(() => {
 
   // });
@@ -26,16 +28,16 @@ class BlogsPage extends Component {
     this.setState({ loading: "true" });
     this.setState({ blogsArray: blogsData.blogsData });
     this.setState({ loading: "false" });
-    // console.log(this.state.blogsArray);
-    // console.log(blogsData.blogsData);
+    // // console.log(this.state.blogsArray);
+    // // console.log(blogsData.blogsData);
   }
 
   render() {
-    console.log(this.state.blogsArray);
+    // console.log(this.state.blogsArray);
     const blogList = this.state.blogsArray.map((recievedBlog) => {
       return (
         // <h1>{recievedBlog.heading}</h1>
-        <div>
+        <div key={recievedBlog.heading}>
           <Blog
             heading={recievedBlog.heading}
             author={recievedBlog.author}
@@ -48,10 +50,10 @@ class BlogsPage extends Component {
       );
     });
 
-    // console.log(this.state.laoding)
+    // // console.log(this.state.laoding)
 
     const display =
-      this.state.loading == "true" ? (
+      this.state.loading === "true" ? (
         <Spinner className="blogs-page-spinner" />
       ) : (
         blogList

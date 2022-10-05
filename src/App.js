@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
+import { HashRouter, Redirect, Route, Switch } from "react-router-dom";
 
 // styles
 import "assets/css/bootstrap.min.css";
@@ -8,7 +8,6 @@ import "assets/demo/demo.css";
 import "assets/css/variables.css";
 // pages
 import Footer from "./components/Footers/Footer";
-
 
 import LandingPage from "views/LandingPage/LandingPage";
 import AboutUsPage from "views/AboutUsPage/AboutUsPage";

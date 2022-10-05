@@ -1,15 +1,13 @@
 import React from "react";
 // reactstrap components
 
-
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 // core components
 
-import SubS from "views/TeamPage/components/Subsystems/Subsystem";
 import Heading from "./components/Heading/Heading";
 import FadeIn from 'views/Animations/FadeIn';
 import TeamHeads from "./components/TeamHeads/TeamHeads";
-// import { Container } from "reactstrap";
+
 function Mechanical() {
     // document.documentElement.classList.remove("nav-open");
     // React.useEffect(() => {

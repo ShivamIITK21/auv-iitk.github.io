@@ -1,19 +1,8 @@
 import React from "react";
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
-    Container,
-    Row,
     Col,
-    Fade
+    Container,
+    Row
 } from "reactstrap";
 import mechanicalteam from "../../../../data/MechanicalTeam.json";
 import electricalTeam from "../../../../data/ElectricalTeam.json";
@@ -59,7 +48,7 @@ function TeamHeads(props) {
                     <Row>
                         {teamHeads.map((teamMember) => {
                             return (
-                                <Col lg="3" md="6" className="team img-col text-center mr-auto ml-auto">
+                                <Col lg="3" md="6" className="team img-col text-center mr-auto ml-auto" key={teamMember.name}>
                                     <div className="member">
                                         <div className="member-img">
                                             <div className="overlay">
@@ -67,11 +56,11 @@ function TeamHeads(props) {
                                                     className="member-img img-fluid" alt="" />
                                             </div>
                                             <div className="social">
-                                                <a href={teamMember.facebook} target='_blank'><i className="fa fa-facebook fa-2x" /></a>
-                                                <a href={teamMember.linkedin} target='_blank'><i className="fa fa-linkedin fa-2x" /></a>
+                                                <a href={teamMember.facebook} target='_blank' rel="noopener noreferrer"><i className="fa fa-facebook fa-2x" /></a>
+                                                <a href={teamMember.linkedin} target='_blank' rel="noopener noreferrer"><i className="fa fa-linkedin fa-2x" /></a>
                                             </div>
                                         </div>
-                                        <div class="member-info">
+                                        <div className="member-info">
                                             <h4>{teamMember.name}</h4>
                                             <span>{teamMember.subheading}</span>
                                         </div>
@@ -92,7 +81,7 @@ function TeamHeads(props) {
                     <Row>
                         {seniorMembers.map((teamMember) => {
                             return (
-                                <Col lg="3" md="6" className="team img-col text-center mr-auto ml-auto">
+                                <Col lg="3" md="6" className="team img-col text-center mr-auto ml-auto" key={teamMember.name}>
                                     <div className="member">
                                         <div className="member-img">
                                             <div className="overlay">
@@ -100,11 +89,11 @@ function TeamHeads(props) {
                                                     className="member-img img-fluid" alt="" />
                                             </div>
                                             <div className="social">
-                                                <a href={teamMember.facebook} target='_blank'><i className="fa fa-facebook fa-2x" /></a>
-                                                <a href={teamMember.linkedin} target='_blank'><i className="fa fa-linkedin fa-2x" /></a>
+                                                <a href={teamMember.facebook} target='_blank' rel="noopener noreferrer"><i className="fa fa-facebook fa-2x" /></a>
+                                                <a href={teamMember.linkedin} target='_blank' rel="noopener noreferrer"><i className="fa fa-linkedin fa-2x" /></a>
                                             </div>
                                         </div>
-                                        <div class="member-info">
+                                        <div className="member-info">
                                             <h4>{teamMember.name}</h4>
                                             <span>{teamMember.subheading}</span>
                                         </div>
@@ -126,7 +115,7 @@ function TeamHeads(props) {
                     <Row>
                         {teamMembers.map((teamMember) => {
                             return (
-                                <Col lg="3" md="6" className="team img-col text-center mr-auto ml-auto">
+                                <Col lg="3" md="6" className="team img-col text-center mr-auto ml-auto" key={teamMember.name}>
                                     <div className="member">
                                         <div className="member-img">
                                             <div className="overlay">
@@ -134,11 +123,11 @@ function TeamHeads(props) {
                                                     className="member-img img-fluid" alt="" />
                                             </div>
                                             <div className="social">
-                                                <a href={teamMember.facebook} target='_blank'><i className="fa fa-facebook fa-2x" /></a>
-                                                <a href={teamMember.linkedin} target='_blank'><i className="fa fa-linkedin fa-2x" /></a>
+                                                <a href={teamMember.facebook} target='_blank' rel="noopener noreferrer"><i className="fa fa-facebook fa-2x" /></a>
+                                                <a href={teamMember.linkedin} target='_blank' rel="noopener noreferrer"><i className="fa fa-linkedin fa-2x" /></a>
                                             </div>
                                         </div>
-                                        <div class="member-info">
+                                        <div className="member-info">
                                             <h4>{teamMember.name}</h4>
                                             <span>{teamMember.subheading}</span>
                                         </div>

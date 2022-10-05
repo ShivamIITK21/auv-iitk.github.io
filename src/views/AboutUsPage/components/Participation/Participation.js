@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Tabs, Tab, Row, Col } from 'react-bootstrap'
+import { Col, Container, Row, Tab, Tabs } from 'react-bootstrap'
 import combinedimage from '../../../../assets/img/competitions.jpg'
 import resimage from '../../../../assets/img/research.jpg'
 import csrimage from '../../../../assets/img/projects.jpg'

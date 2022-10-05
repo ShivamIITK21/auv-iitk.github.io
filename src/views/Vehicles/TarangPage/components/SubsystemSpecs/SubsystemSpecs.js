@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col, Accordion, Card} from "react-bootstrap";
+import {Accordion, Card, Col, Container, Row} from "react-bootstrap";
 
 import "./subs.css";
 import specs from "../../data.js";
@@ -7,7 +7,7 @@ import specs from "../../data.js";
 import FadeIn from "../../../../Animations/FadeIn";
 
 function Posts() {
-    // console.log(specs);
+    // // console.log(specs);
     return (
         <>
         {
@@ -33,7 +33,7 @@ function Posts() {
                                 {
                                     specs.mechanical.map(
                                         (data) => (
-                                            <Accordion defaultActiveKey="">
+                                            <Accordion defaultActiveKey="" key={data.title}>
                                             <Card className="card-plain spec-card">
                                                 <Accordion.Toggle className="accord-head" as={Card.Header} eventKey={String(data.id)}>
                                                 <svg className="add-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-5v5h-2v-5h-5v-2h5v-5h2v5h5v2z"/></svg>
@@ -126,7 +126,7 @@ function Posts() {
                                 {
                                     specs.electrical.map(
                                         (data) => (
-                                            <Accordion>
+                                            <Accordion key={data.title}>
                                             <Card className="card-plain spec-card">
                                                 <Accordion.Toggle className="accord-head" as={Card.Header} eventKey={String(data.id)}>
                                                 <svg className="add-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-5v5h-2v-5h-5v-2h5v-5h2v5h5v2z"/></svg>
@@ -253,7 +253,7 @@ function Posts() {
                                 {
                                     specs.software.map(
                                         (data) => (
-                                            <Accordion>
+                                            <Accordion key={data.title}>
                                             <Card className="card-plain spec-card">
                                                 <Accordion.Toggle className="accord-head" as={Card.Header} eventKey={String(data.id)}>
                                                 <svg className="add-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-5v5h-2v-5h-5v-2h5v-5h2v5h5v2z"/></svg>

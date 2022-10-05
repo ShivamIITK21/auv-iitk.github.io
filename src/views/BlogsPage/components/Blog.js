@@ -1,14 +1,13 @@
 // eslint-disable-next-line no-use-before-define
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Col, Row } from "reactstrap";
 import "./Blog.css";
-import bI from "../../../assets/img/blog/BlogImages/hydrophone.jpeg";
 import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
 function Blog(props) {
   const topath = "/blogs/" + props.id;
-  console.log(topath);
+  
   return (
     <>
       <div className="section blog-card">

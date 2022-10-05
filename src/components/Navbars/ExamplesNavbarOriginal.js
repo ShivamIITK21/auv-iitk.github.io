@@ -24,12 +24,12 @@ import classnames from "classnames";
 // reactstrap components
 import {
   Collapse,
-  NavbarBrand,
-  Navbar,
+  Container,
+  Nav,
   NavItem,
   NavLink,
-  Nav,
-  Container,
+  Navbar,
+  NavbarBrand,
 } from "reactstrap";
 
 function ExamplesNavbar() {

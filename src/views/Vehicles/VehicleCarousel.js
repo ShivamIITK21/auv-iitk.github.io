@@ -8,7 +8,7 @@ const VehicleCarousel = ({images}) => {
                 {
                     images.map(
                         image =>(
-                            <Carousel.Item interval={2000}>
+                            <Carousel.Item interval={2000} key={image}>
                                 <img height={350} src={image} alt="slide" />
                             </Carousel.Item>
                         )

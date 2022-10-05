@@ -1,0 +1,39 @@
+{
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+	"extends": ["eslint:recommended", "plugin:react/recommended"],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"plugins": ["react"],
+	"rules": {
+		"import/extensions": "off",
+		"react/prop-types": "off",
+		"no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
+		"eol-last": 1,
+		"react/no-unescaped-entities": 0,
+		"no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+		"import/default": "off",
+		"react/state-in-constructor": 0,
+		"sort-imports": [
+			"error",
+			{
+				"ignoreCase": false,
+				"ignoreDeclarationSort": true,
+				"ignoreMemberSort": false,
+				"memberSyntaxSortOrder": ["none", "all", "single", "multiple"]
+			}
+		]
+	}
+}

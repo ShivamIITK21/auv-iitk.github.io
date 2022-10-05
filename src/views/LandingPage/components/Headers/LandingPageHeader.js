@@ -4,7 +4,7 @@ import React from "react";
 import "./LPHeader.scss";
 
 const scrollHandler = () => {
-  console.log("scroll handler");
+  // console.log("scroll handler");
   let pageHeight = window.innerHeight - window.pageYOffset;
   window.scrollBy({
     top: pageHeight,
