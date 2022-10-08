@@ -34,7 +34,7 @@ function TeamHeads(props) {
     })
 
     const teamMembers = data.teamData[0].items.filter((member => {
-        return member.subheading.includes("Team Member");
+        return member.subheading.includes("Junior Member");
     }))
 
     return (
@@ -108,7 +108,7 @@ function TeamHeads(props) {
 
             {teamMembers.length !== 0?
                 <>
-                    <h1 className="subsystem-headings heading-main">Team Members</h1>
+                    <h1 className="subsystem-headings heading-main">Junior Members</h1>
             <Container>
                 <FadeIn>
                 <div>

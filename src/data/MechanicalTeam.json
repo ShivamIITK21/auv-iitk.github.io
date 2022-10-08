@@ -4,14 +4,6 @@
             "heading": "Team Members",
             "items": [
                 {
-                    "name": "Jaskeerat Singh",
-                    "subheading": "Y18, Senior Member",
-                    "image": "team/jaskeerat.jpg",
-                    "facebook": "https://www.facebook.com/jaskeerat.singh.980/",
-                    "linkedin": "https://www.linkedin.com/in/jaskeerat-singh-413a151a9/",
-                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
-                },
-                {
                     "name": "Kamlesh Kalsariya",
                     "subheading": "Y18, Senior Member",
                     "image": "team/kamlesh.jpg",
@@ -21,51 +13,88 @@
                 },
                 {
                     "name": "Shashank Katiyar",
-                    "subheading": "Y19, Subsystem Head",
+                    "subheading": "Y19, Senior Member",
                     "image": "team/shashank.jpeg",
                     "facebook": "https://www.facebook.com/shashank.katiyar.313/",
                     "linkedin": "https://www.linkedin.com/in/shashankkat/",
                     "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
                 },
                 {
-                    "name": "Kushal Sosale",
-                    "subheading": "Y20, Team Member",
-                    "image": "team/KushalSosale.jpg",
-                    "facebook": "https://www.facebook.com/DarkStar.010/",
-                    "linkedin": "https://www.linkedin.com/in/kushal-sosale-14904b204/",
-                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                    "name":"Shashikant Yadav",
+                    "subheading":"Y21, Junior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://www.facebook.com/narendramodi/",
+                    "linkedin":"https://www.linkedin.com/in/shashikant-yadav-9b7a62235"
                 },
                 {
-                    "name": "Om Jee",
-                    "subheading": "Y20, Team Member",
-                    "image": "team/OmJee.jpg",
-                    "facebook": "https://www.facebook.com/profile.php?id=100057579249812",
-                    "linkedin": "https://www.linkedin.com/in/om-jee-322b12212",
-                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                    "name":"Lakshya Bhardwaj",
+                    "subheading":"Y21, Junior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://www.facebook.com/profile.php?id=100074851324242",
+                    "linkedin":"https://www.linkedin.com/in/lakshya-bhardwaj-22b0b9247"
                 },
                 {
-                    "name": "Sarath Kamal",
-                    "subheading": "Y20, Team Member",
-                    "image": "team/SarathK.jpeg",
-                    "facebook": "https://www.facebook.com/sarath.kamal.7545",
-                    "linkedin": "http://linkedin.com/in/sarath-kamal-iitk",
-                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                    "name":"Om Jee",
+                    "subheading":"Y20, Subsystem Head",
+                    "image":"team/OmJee.jpg",
+                    "facebook":"https://www.facebook.com/profile.php?id=100057579249812",
+                    "linkedin":"https://www.linkedin.com/in/narendramodi/?originalSubdomain=in"
                 },
                 {
-                    "name": "Shivang Pandey",
-                    "subheading": "Y20, Team Member",
-                    "image": "team/shivangpandey.jpeg",
-                    "facebook": "https://www.facebook.com/shivang.pandey.35110/",
-                    "linkedin": "https://www.linkedin.com/in/shivang-pandey-313a76212/",
-                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                    "name":"Chinmay Amrutkar",
+                    "subheading":"Y21, Junior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://www.facebook.com/narendramodi/",
+                    "linkedin":"https://www.linkedin.com/in/chinmay-amrutkar/"
                 },
                 {
-                    "name": "Tanmay Grover",
-                    "subheading": "Y20, Team Member",
-                    "image": "team/Tanmaygrover.jpg",
-                    "facebook": "https://www.facebook.com/tanmay.grover.7",
-                    "linkedin": "https://www.linkedin.com/in/tanmay-grover-1968ba20b",
-                    "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
+                    "name":"Priyansh Singh ",
+                    "subheading":"Y21, Junior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://www.facebook.com/profile.php?id=100074968045957",
+                    "linkedin":"https://www.linkedin.com/in/priyansh-singh-352157233"
+                },
+                {
+                    "name":"Aman Kashyap",
+                    "subheading":"Y21, Junior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://m.facebook.com/",
+                    "linkedin":"https://www.linkedin.com/in/aman-kashyap-7bbb17212"
+                },
+                {
+                    "name":"Dhruv Misra",
+                    "subheading":"Y21, Junior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://www.facebook.com/profile.php?id=100073832123467",
+                    "linkedin":"https://www.linkedin.com/in/dhruv-misra-970798223"
+                },
+                {
+                    "name":"Pranay Kansal",
+                    "subheading":"Y20, Senior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://www.facebook.com/pranay.kansal.52",
+                    "linkedin":"https://www.linkedin.com/in/narendramodi/?originalSubdomain=in"
+                },
+                {
+                    "name":"Omkar Chavan",
+                    "subheading":"Y21, Junior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://www.facebook.com/profile.php?id=100023522828980",
+                    "linkedin":"https://www.linkedin.com/in/omkar-chavan-5aaa31241"
+                },
+                {
+                    "name":"Sanyam Jain",
+                    "subheading":"Y21, Junior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://www.facebook.com/profile.php?id=100075380134458",
+                    "linkedin":"https://linkedin.com/in/sanyam-jain-6432b0246"
+                },
+                {
+                    "name":"Devabrata Bothra",
+                    "subheading":"Y21, Junior Member",
+                    "image":"team/default.jpg",
+                    "facebook":"https://www.facebook.com/dev.bothra.5",
+                    "linkedin":"https://www.linkedin.com/in/devabrata-bothra-98257b223"
                 }
             ]
         }
