@@ -4,6 +4,13 @@
             "heading": "Team Members",
             "items": [
                 {
+                    "name": "Mahavir Agarwal",
+                    "subheading": "Y20, Subsystem Head",
+                    "image": "team/MahavirAgarwal.jpg",
+                    "facebook": "https://www.facebook.com/mahavir.agarwal.1694",
+                    "linkedin": "https://www.linkedin.com/in/mahavir-agarwal-524a22212"
+                },
+                {
                     "name": "Shubham Korde",
                     "subheading": "Y19, Senior Member",
                     "image": "team/shubham-korde.jpg",
